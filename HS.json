@@ -1,0 +1,2655 @@
+[
+  {
+    "name": "IDIOPHONES",
+    "code": "1",
+    "def": "The substance of the instrument itself, owing to its solidity and elasticity, yields the sounds, without requiring stretched membranes or strings",
+    "subclasses": [
+      {
+        "name": "Struck idiophones",
+        "code": "11",
+        "def": "The instrument is made to vibrate by being struck upon",
+        "subclasses": [
+          {
+            "name": "Idiophones struck directly",
+            "code": "111",
+            "def": "The player himself executes the movement of striking; whether by mechanical intermediate devices, beaters, keyboards, or by pulling ropes, etc., is immaterial; it is definitive that the player can apply clearly defined individual strokes and that the instrument itself is equipped for this kind of percussion",
+            "subclasses": [
+              {
+                "name": "Concussion idiophones or clappers",
+                "code": "1111",
+                "def": "Two or more complementary sonorous parts are struck against each other",
+                "subclasses": [
+                  {
+                    "name": "Concussion sticks or stick clappers",
+                    "code": "11111",
+                    "ex": "Annam, India, Marshall Is."
+                  },
+                  {
+                    "name": "Concussion plaques or plaque clappers",
+                    "code": "11112",
+                    "ex": "China and India"
+                  },
+                  {
+                    "name": "Concussion troughs or trough clappers",
+                    "code": "11113",
+                    "ex": "Burma"
+                  },
+                  {
+                    "name": "Concussion vessels or vessel clappers",
+                    "code": "11114",
+                    "def": "Even a slight hollow in the surface of a board counts as a vessel",
+                    "subclasses": [
+                      {
+                        "name": "Castanets",
+                        "code": "111141",
+                        "def": "Vessel clappers, either natural, or artificially hollowed out"
+                      },
+                      {
+                        "name": "Cymbals",
+                        "code": "111142",
+                        "def": "Vessel clappers with everted rim"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Percussion idiophones",
+                "code": "1112",
+                "def": "The instrument is struck either with a non-sonorous object (hand, stick, striker) or against a non-sonorous object (human body, the ground)",
+                "subclasses": [
+                  {
+                    "name": "Percussion sticks",
+                    "code": "11121",
+                    "subclasses": [
+                      {
+                        "name": "(Individual) percussion sticks",
+                        "code": "111211",
+                        "ex": "Japan, Annam, Balkans; also the triangle"
+                      },
+                      {
+                        "name": "Sets of percussion sticks",
+                        "code": "111212",
+                        "def": "Several percussion sticks of different pitch are combined to form a single instrument",
+                        "ex": "All xylophones, as long as their sounding components are not in two different planes"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Percussion plaques",
+                    "code": "11122",
+                    "subclasses": [
+                      {
+                        "name": "(Individual) percussion plaques",
+                        "code": "111221",
+                        "ex": "In the oriental Christian Church"
+                      },
+                      {
+                        "name": "Sets of percussion plaques",
+                        "code": "111222",
+                        "ex": "Lithophone (China), and most metallophones"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Percussion tubes",
+                    "code": "11123",
+                    "subclasses": [
+                      {
+                        "name": "(Individual) percussion tubes",
+                        "code": "111231",
+                        "ex": "Slit drum, tubular bell"
+                      },
+                      {
+                        "name": "Sets of percussion tubes",
+                        "code": "111232",
+                        "ex": "Tubaphon, tubular xylophone"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Percussion vessels",
+                    "code": "11124",
+                    "subclasses": [
+                      {
+                        "name": "Gongs",
+                        "code": "111241",
+                        "def": "The vibration is strongest near the vertex",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) gongs",
+                            "code": "1112411",
+                            "ex": "S. and E. Asia; including the so-called metal drums, or rather kettle-gongs"
+                          },
+                          {
+                            "name": "Sets of gongs <span style='font-weight:normal'>[<i>gong-chimes</i>]</span>",
+                            "code": "1112412",
+                            "ex": "S.E. Asia"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Bells",
+                        "code": "111242",
+                        "def": "The vibration is weakest near the vertex",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) bells",
+                            "code": "1112421",
+                            "subclasses": [
+                              {
+                                "name": "Resting bells",
+                                "code": "11124211",
+                                "def": "The cup is placed on the palm of the hand or on a cushion; its mouth faces upwards",
+                                "ex": "China, Indo-China, Japan"
+                              },
+                              {
+                                "name": "Suspended bells",
+                                "code": "11124212",
+                                "def": "The bell is suspended from the apex",
+                                "subclasses": [
+                                  {
+                                    "name": "Suspended bells struck from the outside",
+                                    "code": "111242121",
+                                    "def": "No striker is attached inside the bell, there being a separate beater"
+                                  },
+                                  {
+                                    "name": "Clapper bells",
+                                    "code": "111242122",
+                                    "def": "A striker (clapper) is attached inside the bell"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Sets of bells <span style='font-weight:normal'>[<i>chimes</i>]</span>",
+                            "code": "1112422",
+                            "subclasses": [
+                              {
+                                "name": "Sets of resting bells",
+                                "code": "11124221",
+                                "def": "The cup is placed on the palm of the hand or on a cushion; its mouth faces upwards"
+                              },
+                              {
+                                "name": "Sets of suspended bells",
+                                "code": "11124222",
+                                "def": "The bell is suspended from the apex",
+                                "subclasses": [
+                                  {
+                                    "name": "Sets of suspended bells struck from the outside",
+                                    "code": "111242221",
+                                    "def": "No striker is attached inside the bell, there being a separate beater"
+                                  },
+                                  {
+                                    "name": "Sets of clapper bells",
+                                    "code": "111242222",
+                                    "def": "A striker (clapper) is attached inside the bell"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Indirectly struck idiophones",
+            "code": "112",
+            "def": "The player himself does not go through the movement of striking; percussion results indirectly through some other movement by the player. The intention of the instrument is to yield clusters of sounds or noises, and not to let individual strokes be perceived",
+            "subclasses": [
+              {
+                "name": "Shaken idiophones or rattles",
+                "code": "1121",
+                "def": "The player executes a shaking motion",
+                "subclasses": [
+                  {
+                    "name": "Suspension rattles",
+                    "code": "11211",
+                    "def": "Perforated idiophones are mounted together, and shaken to strike against each other",
+                    "subclasses": [
+                      {
+                        "name": "Strung rattles",
+                        "code": "112111",
+                        "def": "Rattling objects are strung in rows on a cord",
+                        "ex": "Necklaces with rows of shells"
+                      },
+                      {
+                        "name": "Stick rattles",
+                        "code": "112112",
+                        "def": "Rattling objects are strung on a bar (or ring)",
+                        "ex": "Sistrum with rings"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Frame rattles",
+                    "code": "11212",
+                    "def": "Rattling objects are attached to a carrier against which they strike",
+                    "subclasses": [
+                      {
+                        "name": "Pendant rattles",
+                        "code": "112121",
+                        "def": "Rattling objects are hung from a frame",
+                        "ex": "Dancing shield with rattling rings"
+                      },
+                      {
+                        "name": "Sliding rattles",
+                        "code": "112122",
+                        "def": "Non-sonorous objects slide to and fro in the slots of the sonorous object wo that the latter is made to vibrate; or sonorous objects slide to and fro in the slots of a non-sonorous object, to be set in vibration by the impacts",
+                        "ex": "Anklung, sistrum with rods (recent)"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Vessel rattles",
+                    "code": "11213",
+                    "def": "rattling objects enclosed in a vessel strike against each other or against the walls of the vessel, or usually against both. NB The Benue gourd rattles with handle, in which the rattling objects, instead of being enclosed, are knotted into a net slipped over the outer surface, count as a variety of vessel rate",
+                    "ex": "Fruit shells with seeds, 'pellet beels' enclosing loose percussion pellets"
+                  }
+                ]
+              },
+              {
+                "name": "Scraped idiophones",
+                "code": "1122",
+                "def": "The player causes a scraping movement directly or indirectly: a non-sonorous object moves along the notched surface of a sonorous object, to be alternately lifted off the teeth and flicked against them; or an elastic sonorous object moves along the surface of a notched non-sonorous object to cause a series of impacts. This group must not be confused with that of friction idiophones",
+                "subclasses": [
+                  {
+                    "name": "Scraped sticks",
+                    "code": "11221",
+                    "def": "A notched stick is scraped with a little stick",
+                    "subclasses": [
+                      {
+                        "name": "Scraped sticks without resonator",
+                        "code": "112211",
+                        "ex": "S. America, India (notched musical bow), Congo"
+                      },
+                      {
+                        "name": "Scraped sticks with resonator",
+                        "code": "112212",
+                        "ex": "Usumbara, E. Asia (tiger)"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Scraped tubes",
+                    "code": "11222"
+                  },
+                  {
+                    "name": "Scraped vessels",
+                    "code": "11223",
+                    "def": "The corrugated surface of a vessel is scraped",
+                    "ex": "S. America, Congo region"
+                  },
+                  {
+                    "name": "Scraped wheels or cog rattles",
+                    "code": "11224",
+                    "def": "A cog wheel, whose axle serves as the handle, and a tongue fixed in a frame which is free to turn on the handle; when whirled, the tongue strikes the teeth of the wheel one after nother",
+                    "ex": "Europe and India"
+                  }
+                ]
+              },
+              {
+                "name": "Split idiophones",
+                "code": "1123",
+                "def": "Instruments in the shape of two springy arms connected at one end and touching at the other: the arms are forced apart by a little stick, to jingle or vibrate on recoil",
+                "ex": "China (huan t'u), Malacca, Persia (qašik), Balkans"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plucked idiophones",
+        "code": "12",
+        "def": "Lamellae, i.e. elastic plaques, fixed at one end, are flexed and then released to return to their position of rest",
+        "subclasses": [
+          {
+            "name": "In the form of a frame",
+            "code": "121",
+            "def": "The lamella vibrates within a frame or hoop",
+            "subclasses": [
+              {
+                "name": "Clack idiophones <span style='font-weight:normal'>(cricri)</span>",
+                "code": "1211",
+                "def": "The lamella is carved in the surface of a fruit shell, which serves as a resonator",
+                "ex": "Melanesia"
+              },
+              {
+                "name": "Guimbardes <span style='font-weight:normal'>(Jew's harps)</span>",
+                "code": "1212",
+                "def": "The lamella is mounted in a rod or plaque-shaped frame and depends on the player's mouth cavity for resonance",
+                "subclasses": [
+                  {
+                    "name": "Idioglot guimbardes",
+                    "code": "12121",
+                    "def": "The lamella is carved in the frame itself, its base remaining joined to the frame",
+                    "ex": "India, Indonesia, Melanesia"
+                  },
+                  {
+                    "name": "Heteroglot guimbardes",
+                    "code": "12122",
+                    "def": "A lamella is attached to a frame",
+                    "subclasses": [
+                      {
+                        "name": "(Single) heteroglot guimbardes",
+                        "code": "121221",
+                        "ex": "Europe, India, China"
+                      },
+                      {
+                        "name": "Sets of heteroglot guimbardes",
+                        "code": "121222",
+                        "def": "several heteroglot guimbardes of different pitches are combined to form a single instrument",
+                        "ex": "Aura"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "In board or comb-form",
+            "code": "122",
+            "def": "The lamellae are tied to a board or cut out from a board like the teeth of a comb",
+            "subclasses": [
+              {
+                "name": "With laced-on lamellae",
+                "code": "1221",
+                "subclasses": [
+                  {
+                    "name": "Without resonator",
+                    "code": "12211",
+                    "ex": "All sansas on a plain board"
+                  },
+                  {
+                    "name": "With resonator",
+                    "code": "12212",
+                    "ex": "All sansas with a box or bowl below the board"
+                  }
+                ]
+              },
+              {
+                "name": "With cut-out lamellae <span style='font-weight:normal'>(musical boxes)</span>",
+                "code": "1222",
+                "def": "Pins on a cylinder pluck the lamellae",
+                "ex": "Europe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Friction idiophones",
+        "code": "13",
+        "def": "The instrument is made to vibrate by friction",
+        "subclasses": [
+          {
+            "name": "Friction sticks",
+            "code": "131",
+            "subclasses": [
+              {
+                "name": "(Individual) friction sticks",
+                "code": "1311",
+                "ex": "Unknown"
+              },
+              {
+                "name": "Sets of friction sticks",
+                "code": "1312",
+                "subclasses": [
+                  {
+                    "name": "With direct friction",
+                    "code": "13121",
+                    "def": "The sticks themselves are rubbed",
+                    "ex": "Nail fiddle, nail piano, Stockspiele"
+                  },
+                  {
+                    "name": "With indirect friction",
+                    "code": "13122",
+                    "def": "The sticks are connected with others which are rubbed and, by transmitting their longitudinal vibrations, stimulate transverse vibration in the former",
+                    "ex": "Chladni's euphon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Friction plaques",
+            "code": "132",
+            "subclasses": [
+              {
+                "name": "(Individual) friction plaques",
+                "code": "1321",
+                "ex": "Unknown"
+              },
+              {
+                "name": "Sets of friction plaques <span style='font-weight:normal'>[<i>livika</i>]</span>",
+                "code": "1322",
+                "ex": "New Ireland"
+              }
+            ]
+          },
+          {
+            "name": "Friction vessels",
+            "code": "133",
+            "subclasses": [
+              {
+                "name": "(Individual) friction vessels",
+                "code": "1331",
+                "ex": "Brazil (tortoise shell)"
+              },
+              {
+                "name": "Sets of friction vessels",
+                "code": "1332",
+                "ex": "Verillon (glass harmonica)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blown idiophones",
+        "code": "14",
+        "def": "the instrument is made to vibrate by being blown upon",
+        "subclasses": [
+          {
+            "name": "Blown sticks",
+            "code": "141",
+            "subclasses": [
+              {
+                "name": "(Individual) blown sticks",
+                "code": "1411",
+                "ex": "Unknown"
+              },
+              {
+                "name": "Sets of blown sticks",
+                "code": "1412",
+                "ex": "Aeolsklavier"
+              }
+            ]
+          },
+          {
+            "name": "Blown plaques",
+            "code": "142",
+            "subclasses": [
+              {
+                "name": "(Individual) blown plaques",
+                "code": "1421",
+                "ex": "Unknown"
+              },
+              {
+                "name": "Sets of blown plaques",
+                "code": "1422",
+                "ex": "Piano chanteur"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "suffixes": [
+      {
+        "name": "with keyboard",
+        "code": "-8"
+      },
+      {
+        "name": "mechanically driven",
+        "code": "-9"
+      }
+    ]
+  },
+  {
+    "name": "MEMBRANOPHONES",
+    "code": "2",
+    "def": "The sound is excited by tightly stretched membranes",
+    "subclasses": [
+      {
+        "name": "Struck drums",
+        "code": "21",
+        "def": "The membranes are struck",
+        "subclasses": [
+          {
+            "name": "Drums struck directly",
+            "code": "211",
+            "def": "The player himself executes the movement of striking; this includes striking by any intermediate devices, such as beaters, keyboards, etc; drums that are shaken are excluded",
+            "subclasses": [
+              {
+                "name": "Kettledrums <span style='font-weight:normal'>(timpani)</span>",
+                "code": "2111",
+                "def": "The body is bowl- or dish-shaped",
+                "subclasses": [
+                  {
+                    "name": "(Separate) kettledrums",
+                    "code": "21111",
+                    "ex": "European timpani"
+                  },
+                  {
+                    "name": "Sets of kettledrums",
+                    "code": "21112",
+                    "ex": "W. Asian permanently joined pairs of kettledrums"
+                  }
+                ]
+              },
+              {
+                "name": "Tubular drums",
+                "code": "2112",
+                "def": "The body is tubular",
+                "subclasses": [
+                  {
+                    "name": "Cylindrical drums",
+                    "code": "21121",
+                    "def": "The diameter is the same at the middle and the ends; whether or not the ends taper or have projecting discs is immaterial",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin cylindrical drums",
+                        "code": "211211",
+                        "def": "The drum has only one usable membrane. In some African drums a second skin forms part of the lacing device and is not used for beating, and hence does not count as a membrane in the present sense",
+                        "subclasses": [
+                          {
+                            "name": "Open cylindrical drums",
+                            "code": "2112111",
+                            "def": "The end opposite from the membrane is open",
+                            "ex": "Malacca"
+                          },
+                          {
+                            "name": "Closed cylindrical drums",
+                            "code": "2112112",
+                            "def": "The end opposite from the membrane is closed",
+                            "ex": "West Indies"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin cylindrical drums",
+                        "code": "211212",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) cylindrical drums",
+                            "code": "2112121",
+                            "ex": "Europe (side drum)"
+                          },
+                          {
+                            "name": "Sets of cylindrical drums",
+                            "code": "2112122"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Barrel-shaped drums",
+                    "code": "21122",
+                    "def": "the diameter is larger at the middle than at the ends; the body is curvilinear",
+                    "ex": "Asia, Africa, Ancient Mexico",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin barrel-shaped drums",
+                        "code": "211221",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open barrel-shaped drums",
+                            "code": "2112211",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed barrel-shaped drums",
+                            "code": "2112212",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin barrel-shaped drums",
+                        "code": "211222",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) barrel-shaped drums",
+                            "code": "2112221"
+                          },
+                          {
+                            "name": "Sets of barrel-shaped drums",
+                            "code": "2112222"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Double-conical drums",
+                    "code": "21123",
+                    "def": "The diameter is larger at the middle than at the ends; the body is rectilinear with angular profile",
+                    "ex": "India (mrdanga, banya, pakhavaja)"
+                  },
+                  {
+                    "name": "Hourglass-shaped drums",
+                    "code": "21124",
+                    "def": "The diameter is smaller at the middle than at the ends",
+                    "ex": "Asia, Melanesia, E. Asia",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin Hourglass-shaped drums",
+                        "code": "211241",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open Hourglass-shaped drums",
+                            "code": "2112411",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed Hourglass-shaped drums",
+                            "code": "2112412",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin Hourglass-shaped drums",
+                        "code": "211242",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) Hourglass-shaped drums",
+                            "code": "2112421"
+                          },
+                          {
+                            "name": "Sets of Hourglass-shaped drums",
+                            "code": "2112422"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Conical drums",
+                    "code": "21125",
+                    "def": "The diameters at the ends differ considerable (minor departures from conicity, inevitably met, are disregarded here)",
+                    "ex": "India",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin conical drums",
+                        "code": "211251",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open conical drums",
+                            "code": "2112511",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed conical drums",
+                            "code": "2112512",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin conical drums",
+                        "code": "211252",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) conical drums",
+                            "code": "2112521"
+                          },
+                          {
+                            "name": "Sets of conical drums",
+                            "code": "2112522"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Goblet-shaped drums",
+                    "code": "21126",
+                    "def": "The body consists of a main section which is either cup-shaped or cylindrical, and a slender stem; borderline cases of this basic design, like those occurring notably in Indonesia, do not affect the identification, so long as a cylindrical form is not in fact reached",
+                    "ex": "Darabukka",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin goblet-shaped drums",
+                        "code": "211261",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open goblet-shaped drums",
+                            "code": "2112611",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed goblet-shaped drums",
+                            "code": "2112612",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin goblet-shaped drums",
+                        "code": "211262",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) goblet-shaped drums",
+                            "code": "2112621"
+                          },
+                          {
+                            "name": "Sets of goblet-shaped drums",
+                            "code": "2112622"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Frame drums",
+                "code": "2113",
+                "def": "The depth of the body does not exceed the radius of the membrane; NB the European side drum, even in its most shallow form, is a development from the long cylindrical drum and hence is not included among frame drums",
+                "subclasses": [
+                  {
+                    "name": "Frame drums (without handle)",
+                    "code": "21131",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin frame drums",
+                        "code": "211311",
+                        "ex": "Tambourine"
+                      },
+                      {
+                        "name": "Double-skin frame drums",
+                        "code": "211312",
+                        "ex": "N. Africa"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Frame drum with handle",
+                    "code": "21132",
+                    "def": "A stick is attached to the frame in line with its diameter",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin frame drums with handle",
+                        "code": "211321",
+                        "ex": "Eskimo"
+                      },
+                      {
+                        "name": "Double-skin frame drums with handle",
+                        "code": "211322",
+                        "ex": "Tibet"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rattle drums",
+            "code": "212",
+            "def": "The drum is shaken; percussion is by impact of pendent or enclosed pellets, or similar objects",
+            "ex": "India, Tibet",
+            "subclasses": [
+              {
+                "name": "Kettledrums",
+                "code": "2121",
+                "def": "The body is bowl- or dish-shaped",
+                "subclasses": [
+                  {
+                    "name": "(Separate) kettledrums",
+                    "code": "21211"
+                  },
+                  {
+                    "name": "Sets of kettledrums",
+                    "code": "21212"
+                  }
+                ]
+              },
+              {
+                "name": "Tubular drums",
+                "code": "2122",
+                "def": "The body is tubular",
+                "subclasses": [
+                  {
+                    "name": "Cylindrical drums",
+                    "code": "21221",
+                    "def": "The diameter is the same at the middle and the ends; whether or not the ends taper or have projecting discs is immaterial",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin cylindrical drums",
+                        "code": "212211",
+                        "def": "The drum has only one usable membrane. In some African drums a second skin forms part of the lacing device and is not used for beating, and hence does not count as a membrane in the present sense",
+                        "subclasses": [
+                          {
+                            "name": "Open cylindrical drums",
+                            "code": "2122111",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed cylindrical drums",
+                            "code": "2122112",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin cylindrical drums",
+                        "code": "212212",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) cylindrical drums",
+                            "code": "2122121"
+                          },
+                          {
+                            "name": "Sets of cylindrical drums",
+                            "code": "2122122"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Barrel-shaped drums",
+                    "code": "21222",
+                    "def": "The diameter is larger at the middle than at the ends; the body is curvilinear",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin barrel-shaped drums",
+                        "code": "212221",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open barrel-shaped drums",
+                            "code": "2122211",
+                            "def": "the end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed barrel-shaped drums",
+                            "code": "2122212",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin barrel-shaped drums",
+                        "code": "212222",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) barrel-shaped drums",
+                            "code": "2122221"
+                          },
+                          {
+                            "name": "Sets of barrel-shaped drums",
+                            "code": "2122222"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Double-conical drums",
+                    "code": "21223",
+                    "def": "The diameter is larger at the middle than at the ends; the body is rectilinear with angular profile"
+                  },
+                  {
+                    "name": "Hourglass-shaped drums",
+                    "code": "21224",
+                    "def": "The diameter is smaller at the middle than at the ends",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin Hourglass-shaped drums",
+                        "code": "212241",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open Hourglass-shaped drums",
+                            "code": "2122411",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed Hourglass-shaped drums",
+                            "code": "2122412",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin Hourglass-shaped drums",
+                        "code": "212242",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) Hourglass-shaped drums",
+                            "code": "2122421"
+                          },
+                          {
+                            "name": "Sets of Hourglass-shaped drums",
+                            "code": "2122422"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Conical drums",
+                    "code": "21225",
+                    "def": "The diameters at the ends differ considerable (minor departures from conicity, inevitably met, are disregarded here)",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin conical drums",
+                        "code": "212251",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open conical drums",
+                            "code": "2122511",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed conical drums",
+                            "code": "2122512",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin conical drums",
+                        "code": "212252",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) conical drums",
+                            "code": "2122521"
+                          },
+                          {
+                            "name": "Sets of conical drums",
+                            "code": "2122522"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Goblet-shaped drums",
+                    "code": "21226",
+                    "def": "The body consists of a main section which is either cup-shaped or cylindrical, and a slender stem",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin goblet-shaped drums",
+                        "code": "212261",
+                        "def": "The drum has only one usable membrane",
+                        "subclasses": [
+                          {
+                            "name": "Open goblet-shaped drums",
+                            "code": "2122611",
+                            "def": "The end opposite from the membrane is open"
+                          },
+                          {
+                            "name": "Closed goblet-shaped drums",
+                            "code": "2122612",
+                            "def": "The end opposite from the membrane is closed"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Double-skin goblet-shaped drums",
+                        "code": "212262",
+                        "def": "The drum has two usable membranes",
+                        "subclasses": [
+                          {
+                            "name": "(Individual) goblet-shaped drums",
+                            "code": "2122621"
+                          },
+                          {
+                            "name": "Sets of goblet-shaped drums",
+                            "code": "2122622"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Frame drums",
+                "code": "2123",
+                "def": "The depth of the body does not exceed the radius of the membrane",
+                "subclasses": [
+                  {
+                    "name": "Frame drums (without handle)",
+                    "code": "21231",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin frame drums",
+                        "code": "212311"
+                      },
+                      {
+                        "name": "Double-skin frame drums",
+                        "code": "212312"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Frame drum with handle",
+                    "code": "21232",
+                    "def": "A stick is attached to the frame in line with its diameter",
+                    "subclasses": [
+                      {
+                        "name": "Single-skin frame drums with handle",
+                        "code": "212321"
+                      },
+                      {
+                        "name": "Double-skin frame drums with handle",
+                        "code": "212322"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plucked drums",
+        "code": "22",
+        "def": "A string is knotted below the centre of the membrane; when the string is plucked, its vibrations are transmitted to the membrane",
+        "ex": "India (gopi yantra, anandalahari)"
+      },
+      {
+        "name": "Friction drums",
+        "code": "23",
+        "def": "The membrane is made to vibrate by friction",
+        "subclasses": [
+          {
+            "name": "Friction drums with stick",
+            "code": "231",
+            "def": "A stick in contact with the membrane is either itself rubbed, or is employed to rub the membrane",
+            "subclasses": [
+              {
+                "name": "With inserted stick",
+                "code": "2311",
+                "def": "The stick passes through a hole in the membrane",
+                "subclasses": [
+                  {
+                    "name": "Friction drums with fixed stick",
+                    "code": "23111",
+                    "def": "The stick cannot be moved; the stick alone is subjected to friction by rubbing",
+                    "ex": "Africa"
+                  },
+                  {
+                    "name": "Friction drums with semi-fixed stick",
+                    "code": "23112",
+                    "def": "The stick is movable to a sufficient extent to rub the membrane when it is itself rubbed by the hand",
+                    "ex": "Africa"
+                  },
+                  {
+                    "name": "Friction drums with free stick",
+                    "code": "23113",
+                    "def": "The stick can be moved freely; it is not itself rubbed, but is employed to rub the membrane",
+                    "ex": "Venezuela"
+                  }
+                ]
+              },
+              {
+                "name": "With tied stick",
+                "code": "2312",
+                "def": "The stick is tied to the membrane in an upright position",
+                "ex": "Europe"
+              }
+            ]
+          },
+          {
+            "name": "Friction drum with cord",
+            "code": "232",
+            "def": "a cord, attached to the membrane, is rubbed",
+            "subclasses": [
+              {
+                "name": "Stationary friction drum with cord",
+                "code": "2321",
+                "def": "The drum is held stationary",
+                "ex": "Europe, Africa",
+                "subclasses": [
+                  {
+                    "name": "Single-skin stationary drums with friction cord",
+                    "code": "23211"
+                  },
+                  {
+                    "name": "Double-skin stationary drums with friction cord",
+                    "code": "23212"
+                  }
+                ]
+              },
+              {
+                "name": "Friction drum with whirling stick",
+                "code": "2322",
+                "def": "The drum is whirled on a cord which rubs on a [resined] notch in the holding stick",
+                "ex": "Waldteufel [cardboard buzzer] (Europe, India, E. Africa)"
+              }
+            ]
+          },
+          {
+            "name": "Hand friction drums",
+            "code": "233",
+            "def": "The membrane is rubbed by the hand"
+          }
+        ]
+      },
+      {
+        "name": "Singing membranes <span style='font-weight:normal'>(Kazoos)</span>",
+        "code": "24",
+        "def": "The membrane is made to vibrate by speaking or singing into it; the membrane does not yield a note of its own but merely modifies the voice",
+        "ex": "Europe, W. Africa",
+        "subclasses": [
+          {
+            "name": "Free kazoos",
+            "code": "241",
+            "def": "The membrane is incited directly, without the wind first passing through a chamber",
+            "ex": "Comb-and-paper"
+          },
+          {
+            "name": "Tube or vessel-kazoos",
+            "code": "242",
+            "def": "The membrane is placed inside a tube or box",
+            "ex": "Africa; while also, E. Asian flutes with a lateral hole sealed by a membrane, exhibit an adulteration with the principle of the tube kazoo"
+          }
+        ]
+      }
+    ],
+    "suffixes": [
+      {
+        "name": "with membrane glued to drum",
+        "code": "-6"
+      },
+      {
+        "name": "with membrane nailed to drum",
+        "code": "-7"
+      },
+      {
+        "name": "with membrane laced to drum",
+        "code": "-8",
+        "subclasses": [
+          {
+            "name": "cord-(ribbon-) bracing",
+            "code": "-81",
+            "def": "The cords are stretched from membrane to membrane or arranged in form of a net, without employing any of the devices described below",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-811",
+                "ex": "Everywhere"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-812",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension",
+                "ex": "Ceylon"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-813",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop",
+                "ex": "India"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-814",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension",
+                "ex": "India, Indonesia, Africa"
+              }
+            ]
+          },
+          {
+            "name": "cord-and-hide bracing",
+            "code": "-82",
+            "def": "The cords are laced at the lower end to a non-sonorous piece of hide",
+            "ex": "Africa",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-821"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-822",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-823",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-824",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension"
+              }
+            ]
+          },
+          {
+            "name": "cord-and-board bracing",
+            "code": "-83",
+            "def": "The cords are laced to an auxiliary board",
+            "ex": "Sumatra",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-831"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-832",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-833",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-834",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension"
+              }
+            ]
+          },
+          {
+            "name": "Cord-and-flange bracing",
+            "code": "-84",
+            "def": "The cords are laced at the lower end to a flange carved from the solid",
+            "ex": "Africa",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-841"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-842",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-843",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-844",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension"
+              }
+            ]
+          },
+          {
+            "name": "Cord-and-belt bracing",
+            "code": "-85",
+            "def": "The cords are laced at the lower end to a belt of different material",
+            "ex": "India",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-851"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-852",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-853",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-854",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension"
+              }
+            ]
+          },
+          {
+            "name": "Cord-and-peg bracing",
+            "code": "-86",
+            "def": "The cords are laced at the lower end to pegs stuck into the wall of the drum",
+            "ex": "Africa",
+            "subclasses": [
+              {
+                "name": "without special devices for stretching",
+                "code": "-861"
+              },
+              {
+                "name": "with tension ligature",
+                "code": "-862",
+                "def": "Cross ribbons or cords are tied round the middle of the lacing to increase its tension"
+              },
+              {
+                "name": "with tension loops",
+                "code": "-863",
+                "def": "The cords are laced in a zigzat; every pair of strings is caught together with a small ring or loop"
+              },
+              {
+                "name": "with wedge-bracing",
+                "code": "-864",
+                "def": "Wedges are inserted between the wall of the drum and the cords of the lacing; by adjusting the position of the wedges it is possible to control the tension"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "with membrane lapped on",
+        "code": "-9",
+        "def": "A ring is slipped over the edge of the membrane",
+        "subclasses": [
+          {
+            "name": "with membrane lapped on by ring of cord",
+            "code": "-91",
+            "ex": "Africa"
+          },
+          {
+            "name": "with membrane lapped on by a hoop",
+            "code": "-92",
+            "subclasses": [
+              {
+                "name": "without mechanism",
+                "code": "-921",
+                "ex": "European drum"
+              },
+              {
+                "name": "with mechanism",
+                "code": "-922",
+                "subclasses": [
+                  {
+                    "name": "without pedal",
+                    "code": "-9221",
+                    "ex": "Machine timpani"
+                  },
+                  {
+                    "name": "with pedals",
+                    "code": "-9222",
+                    "ex": "Pedal timpani"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CHORDOPHONES",
+    "code": "3",
+    "def": "One or more strings are stretched between fixed points",
+    "subclasses": [
+      {
+        "name": "Simple chordophones or zithers",
+        "code": "31",
+        "def": "The instrument consists solely of a string bearer, or of a string bearer with a resonator which is not integral and can be detached without destroying th sound-producing apparatus",
+        "subclasses": [
+          {
+            "name": "Bar zithers",
+            "code": "311",
+            "def": "The string bearer is bar-shaped; it may be a board placed edgewise",
+            "subclasses": [
+              {
+                "name": "Musical bows",
+                "code": "3111",
+                "def": "The string bearer is flexible (and curved)",
+                "subclasses": [
+                  {
+                    "name": "Idiochord musical bows",
+                    "code": "31111",
+                    "def": "The string is cut from the bark of the cane, remaining attached at each end",
+                    "subclasses": [
+                      {
+                        "name": "Mono-idiochord musical bows",
+                        "code": "311111",
+                        "def": "The bow has one idiochord string only",
+                        "ex": "New Guinea (Sepik R.), Togo"
+                      },
+                      {
+                        "name": "Poly-idiochord musical bows or harp-bows",
+                        "code": "311112",
+                        "def": "The bow has several idiochord strings which pass over a toothed stick or bridge",
+                        "ex": "W. Africa (Fan)"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Heterochord musical bows",
+                    "code": "31112",
+                    "def": "The string is of separate material from the bearer",
+                    "subclasses": [
+                      {
+                        "name": "Mono-heterochord musical bows",
+                        "code": "311121",
+                        "def": "The bow has one heterochord string only",
+                        "subclasses": [
+                          {
+                            "name": "without resonator",
+                            "code": "3111211",
+                            "def": "NB If a separate, unattached resonator is used, the specimen belongs to 311.121.21. The human mouth is not to be taken into account as a resonator",
+                            "subclasses": [
+                              {
+                                "name": "without tuning noose",
+                                "code": "31112111",
+                                "ex": "Africa (ganza, samuius, to)"
+                              },
+                              {
+                                "name": "with tuning noose",
+                                "code": "31112112",
+                                "ex": "South-equatorial Africa (n'kungo, uta)"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "with resonator",
+                            "code": "3111212",
+                            "subclasses": [
+                              {
+                                "name": "with independent resonator",
+                                "code": "31112121",
+                                "ex": "Borneo (busoi)"
+                              },
+                              {
+                                "name": "with resonator attached",
+                                "code": "31112122",
+                                "subclasses": [
+                                  {
+                                    "name": "without tuning noose",
+                                    "code": "311121221",
+                                    "ex": "S. Africa (hade, thomo)"
+                                  },
+                                  {
+                                    "name": "with tuning noose",
+                                    "code": "311121222",
+                                    "ex": "S. Africa, Madagascar (gubo, hungo, bobre)"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Poly-heterochord musical bows",
+                        "code": "311122",
+                        "def": "The bow has several heterochord strings",
+                        "subclasses": [
+                          {
+                            "name": "without tuning noose",
+                            "code": "3111221",
+                            "ex": "Oceania (kalove)"
+                          },
+                          {
+                            "name": "with tuning noose",
+                            "code": "3111222",
+                            "ex": "Oceania (pagolo)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Stick zithers",
+                "code": "3112",
+                "def": "The string carrier is rigid",
+                "subclasses": [
+                  {
+                    "name": "Musical bow cum stick",
+                    "code": "31121",
+                    "def": "The string bearer has one flexible, curved end. NB Stick zithers with both ends flexible and curved, like the Basuto bow, are counted as musical bows",
+                    "ex": "India"
+                  },
+                  {
+                    "name": "(True) stick zithers",
+                    "code": "31122",
+                    "def": "NB Round sticks which happen to be hollow by chance do not belong to this account of the tube zithers, but are round-bar zithers; however, instruments in which a tubular cavity is employed as a true resonator, like the modern Mexican <i>harpa</i>, are tube zithers",
+                    "subclasses": [
+                      {
+                        "name": "with one resonator gourd",
+                        "code": "311221",
+                        "ex": "India (tuila), Celebes (suleppe)"
+                      },
+                      {
+                        "name": "with several resonators gourds",
+                        "code": "311222",
+                        "ex": "India (vina)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tube zithers",
+            "code": "312",
+            "def": "The string bearer is a vaulted surface",
+            "subclasses": [
+              {
+                "name": "Whole-tube zithers",
+                "code": "3121",
+                "def": "The string carrier is a complete tube",
+                "subclasses": [
+                  {
+                    "name": "Idiochord (true) tube zithers",
+                    "code": "31211",
+                    "ex": "Africa and Indonesia (gonra, togo, valiha)"
+                  },
+                  {
+                    "name": "Heterochord (true) tube zithers",
+                    "code": "31212",
+                    "subclasses": [
+                      {
+                        "name": "without extra resonator",
+                        "code": "312121",
+                        "ex": "S.E. Asia (alligator)"
+                      },
+                      {
+                        "name": "with extra resonator",
+                        "code": "312122",
+                        "def": "An internode length of bamboo is placed inside a palm leaf tied in the shape of a bowl",
+                        "ex": "Timor"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Half-tube zithers",
+                "code": "3122",
+                "def": "The strings are stretched along the convex surface of a gutter",
+                "subclasses": [
+                  {
+                    "name": "Idiochord half-tube zithers",
+                    "code": "31221",
+                    "ex": "Flores"
+                  },
+                  {
+                    "name": "Heterochord half-tube zithers",
+                    "code": "31222",
+                    "ex": "E. Asia (k'in, koto)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Raft zithers",
+            "code": "313",
+            "def": "The string bearer is composed of canes tied together in the manner of a raft",
+            "subclasses": [
+              {
+                "name": "Idiochord raft zithers",
+                "code": "3131",
+                "ex": "India, Upper Guinea, Central Congo"
+              },
+              {
+                "name": "Heterochord raft zithers",
+                "code": "3132",
+                "ex": "N. Nyasa region"
+              }
+            ]
+          },
+          {
+            "name": "Board zithers",
+            "code": "314",
+            "def": "The string bearer is a board; the ground too is to be counted as such",
+            "subclasses": [
+              {
+                "name": "True board zithers",
+                "code": "3141",
+                "def": "The plane of the strings is parallel with that of the string bearer",
+                "subclasses": [
+                  {
+                    "name": "without resonator",
+                    "code": "31411",
+                    "ex": "Borneo"
+                  },
+                  {
+                    "name": "with resonator",
+                    "code": "31412",
+                    "subclasses": [
+                      {
+                        "name": "with resonator bowl",
+                        "code": "314121",
+                        "def": "The resonator is a fruit shell or similar object, or an artificially carved equivalent",
+                        "ex": "Nyasa region"
+                      },
+                      {
+                        "name": "with resonator box (box zither)",
+                        "code": "314122",
+                        "def": "The resonator is made from slats",
+                        "ex": "Zither, Hackbrett, pianoforte"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Board zither variations",
+                "code": "3142",
+                "def": "The plane of the strings is at right angles to the string bearer",
+                "subclasses": [
+                  {
+                    "name": "Ground zithers",
+                    "code": "31421",
+                    "def": "The ground is the string bearer; there is only one string"
+                  },
+                  {
+                    "name": "Harp zithers",
+                    "code": "31422",
+                    "def": "A board serves as string bearer; there are several strings and a notched bridge"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Trough zithers",
+            "code": "315",
+            "def": "The strings are stretched across the mouth of a trough",
+            "subclasses": [
+              {
+                "name": "Without resonator",
+                "code": "3151"
+              },
+              {
+                "name": "With resonator",
+                "code": "3152",
+                "def": "The trough has a gourd or a similar object attached to it"
+              }
+            ]
+          },
+          {
+            "name": "Frame zithers",
+            "code": "316",
+            "def": "The strings are stretched across an open frame",
+            "subclasses": [
+              {
+                "name": "without resonator",
+                "code": "3161",
+                "ex": "Perhaps amongst medieval psalteries"
+              },
+              {
+                "name": "with resonator",
+                "code": "3162",
+                "ex": "W. Africa, amongst the Kru (kani)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Composite chordophones",
+        "code": "32",
+        "def": "A string bearer and a resonator are organically united and cannot be separated without destroying the instrument",
+        "subclasses": [
+          {
+            "name": "Lutes",
+            "code": "321",
+            "def": "The plane of the strings runs parallel with the sound-table",
+            "subclasses": [
+              {
+                "name": "Bow lutes <span style='font-weight:normal'>[<i>pluriarcs</i>]</span>",
+                "code": "3211",
+                "def": "Each string has its own flexible carrier",
+                "ex": "Africa (akam, kalangu, wambi)"
+              },
+              {
+                "name": "Yoke lutes or lyres",
+                "code": "3212",
+                "def": "The strings are attached to a yoke which lies in the same plane as the sound-table and consists of two arms and a cross-bar",
+                "subclasses": [
+                  {
+                    "name": "Bowl lyres",
+                    "code": "32121",
+                    "def": "A natural or carved-out bowl serves as the resonator",
+                    "ex": "Lyra, E. African lyre"
+                  },
+                  {
+                    "name": "Box lyres",
+                    "code": "32122",
+                    "def": "A built-up wooden box serves as the resonator",
+                    "ex": "Cithara, crwth"
+                  }
+                ]
+              },
+              {
+                "name": "Handle lutes",
+                "code": "3213",
+                "def": "The string bearer is a plain handle. Subsidiary necks, as e.g. in the Indian <i>prasarini vina</i> are disregarded, as are also lutes with strings distributed over several necks, like the <i>harpolyre</i>, and those like the Lyre-guitars, in which the yoke is merely ornamental",
+                "subclasses": [
+                  {
+                    "name": "Spike lutes",
+                    "code": "32131",
+                    "def": "The handle passes diametrically through the resonator",
+                    "subclasses": [
+                      {
+                        "name": "Spike bowl lutes",
+                        "code": "321311",
+                        "def": "The resonator consists of a natural or carved-out bowl",
+                        "ex": "Persia, India, Indonesia"
+                      },
+                      {
+                        "name": "Spike box lutes or spike guitars",
+                        "code": "321312",
+                        "def": "The resonator is built up from wood",
+                        "ex": "Egypt (rebab)"
+                      },
+                      {
+                        "name": "Spike tube lutes",
+                        "code": "321313",
+                        "def": "The handle passes diametrically through the walls of a tube",
+                        "ex": "China, Indochina"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Necked lutes",
+                    "code": "32132",
+                    "def": "The handle is attached to or carved from the resonator, like a neck",
+                    "subclasses": [
+                      {
+                        "name": "Necked bowl lutes",
+                        "code": "321321",
+                        "ex": "Mandoline, theorbo, balalaika"
+                      },
+                      {
+                        "name": "Necked box lutes or necked guitars",
+                        "code": "321322",
+                        "ex": "Violin, viol, guitar"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Harps",
+            "code": "322",
+            "def": "The plane of the strings lies at right angles to the sound-table; a line joining the lower ends of the strings would point towards the neck",
+            "subclasses": [
+              {
+                "name": "Open harps",
+                "code": "3221",
+                "def": "The harp has no pillar",
+                "subclasses": [
+                  {
+                    "name": "Arched harps",
+                    "code": "32211",
+                    "def": "The neck curves away from the resonator",
+                    "ex": "Burma and Africa"
+                  },
+                  {
+                    "name": "Angular harps",
+                    "code": "32212",
+                    "def": "The neck makes a sharp angle with the resonator",
+                    "ex": "Assyria, Ancient Egypt, Ancient Korea"
+                  }
+                ]
+              },
+              {
+                "name": "Frame harps",
+                "code": "3222",
+                "def": "The harp has a pillar",
+                "subclasses": [
+                  {
+                    "name": "without tuning action",
+                    "code": "32221",
+                    "subclasses": [
+                      {
+                        "name": "Diatonic frame harps",
+                        "code": "322211"
+                      },
+                      {
+                        "name": "Chromatic frame harps",
+                        "code": "322212",
+                        "subclasses": [
+                          {
+                            "name": "with the strings in one plane",
+                            "code": "3222121",
+                            "ex": "Most of the older chromatic harps"
+                          },
+                          {
+                            "name": "with the strings in two planes crossing one another",
+                            "code": "3222122",
+                            "ex": "The Lyon chromatic harp"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "with tuning action",
+                    "code": "32222",
+                    "subclasses": [
+                      {
+                        "name": "with manual action",
+                        "code": "322221",
+                        "def": "The tuning can be altered by hand-levers",
+                        "ex": "Hook harp, dital harp, harpinella"
+                      },
+                      {
+                        "name": "with pedal action",
+                        "code": "322222",
+                        "def": "The tuning can be altered by pedals"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Harp-lutes",
+            "code": "323",
+            "def": "The plane of the strings lies at right angles to the sound-table; a line joining the lower ends of the strings would be perpendicular to the neck. Notched bridge",
+            "ex": "W. Africa (kasso, etc.)"
+          }
+        ]
+      }
+    ],
+    "suffixes": [
+      {
+        "name": "sounded by hammers or beaters",
+        "code": "-4"
+      },
+      {
+        "name": "sounded with the bare fingers",
+        "code": "-5"
+      },
+      {
+        "name": "sounded by plectrum",
+        "code": "-6"
+      },
+      {
+        "name": "sounded by bowing",
+        "code": "-7",
+        "subclasses": [
+          {
+            "name": "with a bow",
+            "code": "-71"
+          },
+          {
+            "name": "by a wheel",
+            "code": "-72"
+          },
+          {
+            "name": "by a ribbon <span style='font-weight:normal'>[<i>Band</i>]</span>",
+            "code": "-73"
+          }
+        ]
+      },
+      {
+        "name": "with a keyboard",
+        "code": "-8"
+      },
+      {
+        "name": "with mechanical drive",
+        "code": "-9"
+      }
+    ]
+  },
+  {
+    "name": "AEROPHONES",
+    "code": "4",
+    "def": "The air itself is the vibrator in the primary sense",
+    "subclasses": [
+      {
+        "name": "Free aerophones",
+        "code": "41",
+        "def": "The vibrating air is not confined by the instrument",
+        "subclasses": [
+          {
+            "name": "Displacement free aerophones",
+            "code": "411",
+            "def": "The air stream meets a sharp edge,or a sharp edge is moved through the air. In either case, according to more recent views, a periodic displacement of air occurs to alternate flanks of the edge",
+            "ex": "Whip, sword-blade"
+          },
+          {
+            "name": "Interruptive free aerophones",
+            "code": "412",
+            "def": "The air stream is interrupted periodically",
+            "subclasses": [
+              {
+                "name": "Idiophonic interruptive aerophones or reeds",
+                "code": "4121",
+                "def": "The air stream is directed against a lamella, setting it in periodic vibration to interrupt the stream intermittently. In this group also belong reeds with a 'cover', i.e. a tube in which the air vibrates only in a secondary sense, not producing the sound but simply adding roundness and timbre to the sound made by the reed's vibration; generally recognizable by the absence of fingerholes",
+                "ex": "Organ reed stops",
+                "subclasses": [
+                  {
+                    "name": "Concussion reeds",
+                    "code": "41211",
+                    "def": "Two lamellae make a gap which closes periodically during their vibration",
+                    "ex": "A split grass-blade"
+                  },
+                  {
+                    "name": "Percussion reeds",
+                    "code": "41212",
+                    "def": "A single lamella strikes against a frame",
+                    "subclasses": [
+                      {
+                        "name": "Individual percussion reeds",
+                        "code": "412121",
+                        "ex": "Brit. Columbia"
+                      },
+                      {
+                        "name": "Sets of percussion reeds",
+                        "code": "412122",
+                        "def": "The earlier reed stops of organs"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Free reeds",
+                    "code": "41213",
+                    "def": "The lamella vibrates through a closely fitting slot",
+                    "subclasses": [
+                      {
+                        "name": "(Individual) free reeds",
+                        "code": "412131",
+                        "ex": "Single-note motor horn"
+                      },
+                      {
+                        "name": "Sets of free reeds",
+                        "code": "412132",
+                        "def": "NB In instruments like the Chinese sheng the fingerholes do not serve to modify the pitch and are therefore not equivalent to the fingerholes of other pipes ",
+                        "ex": "Reed organ, mouthorgan, accordion"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ribbon reeds",
+                    "code": "41214",
+                    "def": "The air stream is directed against the edge of a stretched band or ribbon. The acoustics of this process has not yet been studied",
+                    "ex": "Brit. Columbia"
+                  }
+                ]
+              },
+              {
+                "name": "Non-idiophonic interruptive instruments",
+                "code": "4122",
+                "def": "The interruptive agent is not a reed",
+                "subclasses": [
+                  {
+                    "name": "Rotating aerophones",
+                    "code": "41221",
+                    "def": "The interruptive agent rotates in its own plane",
+                    "ex": "Sirens"
+                  },
+                  {
+                    "name": "Whirling aerophones",
+                    "code": "41222",
+                    "def": "The interruptive agent turns on its axis",
+                    "ex": "Bull-roarer, whirring disc, ventilating fan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Plosive aerophones",
+            "code": "413",
+            "def": "The air is made to vibrate by a single density stimulus condensation shock",
+            "ex": "Pop guns"
+          }
+        ]
+      },
+      {
+        "name": "Wind instruments proper",
+        "code": "42",
+        "def": "The vibrating air is confined whithin the instrument itself",
+        "subclasses": [
+          {
+            "name": "Edge instruments or flutes",
+            "code": "421",
+            "def": "A narrow stream of air is directed against an edge",
+            "subclasses": [
+              {
+                "name": "Flutes without duct",
+                "code": "4211",
+                "def": "The player himself creates a ribbon-shaped stream of air with his lips",
+                "subclasses": [
+                  {
+                    "name": "End blown flutes",
+                    "code": "42111",
+                    "def": "The player blows against the sharp rim at the upper open end of a tube",
+                    "subclasses": [
+                      {
+                        "name": "(Single) end-blown flutes",
+                        "code": "421111",
+                        "subclasses": [
+                          {
+                            "name": "Open single end-blown flutes",
+                            "code": "4211111",
+                            "def": "The lower end of the flute is open",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42111111",
+                                "ex": "Bengal"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42111112",
+                                "ex": "Almost world-wide"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Stopped single end-blown flutes",
+                            "code": "4211112",
+                            "def": "The lower end of the flute is closed",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42111121",
+                                "ex": "The bore of a key"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42111122",
+                                "ex": "Especially New Guinea"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Sets of end-blown flutes or panpipes",
+                        "code": "421112",
+                        "def": "Several end-blown flutes of different pitch are combined to form a single instrument",
+                        "subclasses": [
+                          {
+                            "name": "Open panpipes",
+                            "code": "4211121",
+                            "subclasses": [
+                              {
+                                "name": "Open (raft) panpipes",
+                                "code": "42111211",
+                                "def": "The pipes are tied together in the form of a board, or they are made by drilling tubes in a board",
+                                "ex": "China"
+                              },
+                              {
+                                "name": "Open bundle (pan-) pipes",
+                                "code": "42111212",
+                                "def": "The pipes are tied together in a round bundle",
+                                "ex": "Solomon Is., New Britain, New Ireland, Admiralty Is."
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Stopped panpipes",
+                            "code": "4211122",
+                            "ex": "Europe, S. America"
+                          },
+                          {
+                            "name": "Mixed open and stopped panpipes",
+                            "code": "4211123",
+                            "ex": "Solomon Is., S. Ameria"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Side-blown flutes",
+                    "code": "42112",
+                    "def": "The player blows against the sharp rim of a hole in the side of the tube",
+                    "subclasses": [
+                      {
+                        "name": "(Single) side-blown flutes",
+                        "code": "421121",
+                        "subclasses": [
+                          {
+                            "name": "Open side-blown flutes",
+                            "code": "4211211",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42112111",
+                                "ex": "S.W. Timor"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42112112",
+                                "def": "European flute"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Partly-stopped side-blown flutes",
+                            "code": "4211212",
+                            "def": "The lower end of the tube is a natural node of the pipe pierced by a small hole",
+                            "ex": "N.W. Borneo"
+                          },
+                          {
+                            "name": "Stopped side-blown flutes",
+                            "code": "4211213",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42112131",
+                                "subclasses": [
+                                  {
+                                    "name": "with fixed stopped lower end",
+                                    "code": "421121311",
+                                    "ex": "Apparently non-existent"
+                                  },
+                                  {
+                                    "name": "with adjustable stopped lower end <span style='font-weight:normal'>(piston flutes)</span>",
+                                    "code": "421121312",
+                                    "ex": "Malacca, New Guinea"
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42112132",
+                                "ex": "E. Bengal, Malacca"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Sets of side-blown flutes",
+                        "code": "421122",
+                        "subclasses": [
+                          {
+                            "name": "Sets of open side-blown flutes",
+                            "code": "4211221",
+                            "ex": "Chamber flute orum"
+                          },
+                          {
+                            "name": "Sets of stopped side-blown flutes",
+                            "code": "4211222",
+                            "ex": "N.W. Brazil (among the Siusi)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Vessel flutes (without distinct beak)",
+                    "code": "42113",
+                    "def": "The body of the pipe is not tubular but vessel-shaped",
+                    "ex": "Brazil (Karaja), Lower Congo (Bafiote)"
+                  }
+                ]
+              },
+              {
+                "name": "Flutes with duct or duct flutes",
+                "code": "4212",
+                "def": "A narrow duct directs the air stream against the sharp edge of a lateral orifice",
+                "subclasses": [
+                  {
+                    "name": "Flutes with external duct",
+                    "code": "42121",
+                    "def": "The duct is outside the wall of the flute; this group includes flutes with the duct chamfered in the wall under a ring-like sleeve and other similar arrangements",
+                    "subclasses": [
+                      {
+                        "name": "(Single) flutes with external duct",
+                        "code": "421211",
+                        "subclasses": [
+                          {
+                            "name": "Open flutes with external duct",
+                            "code": "4212111",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42121111",
+                                "ex": "China, Borneo"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42121112",
+                                "ex": "Indonesia"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Partly-stopped flutes with external duct",
+                            "code": "4212112",
+                            "ex": "Malacca"
+                          },
+                          {
+                            "name": "Stopped flutes with external duct",
+                            "code": "4212113"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Sets of flutes with external duct",
+                        "code": "421212",
+                        "ex": "Tibet"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Flutes with internal duct",
+                    "code": "42122",
+                    "def": "The duct is inside the tube. This group includes flutes with the duct formed by an internal baffle (natural node, block of resin) and an exterior tied-on cover (cane, wood, hide)",
+                    "subclasses": [
+                      {
+                        "name": "(Single) flutes with internal duct",
+                        "code": "421221",
+                        "subclasses": [
+                          {
+                            "name": "Open flutes with internal duct",
+                            "code": "4212211",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42122111",
+                                "ex": "European signalling whistle"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42122112",
+                                "ex": "Recorder"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Partly-stopped flute with internal duct",
+                            "code": "4212212",
+                            "ex": "India and Indonesia"
+                          },
+                          {
+                            "name": "Stopped flutes with internal duct",
+                            "code": "4212213",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42122131",
+                                "subclasses": [
+                                  {
+                                    "name": "with fixed stopped lower end",
+                                    "code": "421221311",
+                                    "ex": "European signalling whistle"
+                                  },
+                                  {
+                                    "name": "with adjustable stopped lower end",
+                                    "code": "421221312",
+                                    "ex": "Piston pipes [swannee whistle]"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Vessel flutes with duct",
+                            "code": "4212214",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42122141",
+                                "ex": "Zoomorphic pottery whistles (Europe, Asia)"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42122142",
+                                "ex": "Ocarina"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Sets of flutes with internal duct",
+                        "code": "421222",
+                        "subclasses": [
+                          {
+                            "name": "Sets of open flutes with internal duct",
+                            "code": "4212221",
+                            "subclasses": [
+                              {
+                                "name": "without fingerholes",
+                                "code": "42122211",
+                                "ex": "Open flue stops of the organ"
+                              },
+                              {
+                                "name": "with fingerholes",
+                                "code": "42122212",
+                                "ex": "Double flageolet"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Sets of partly-stopped flutes with internal duct",
+                            "code": "4212222",
+                            "ex": "Rohrflöte stops of the organ"
+                          },
+                          {
+                            "name": "Sets of stopped flutes with internal duct",
+                            "code": "4212223",
+                            "ex": "Stopped flue stops of the organ"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Reedpipes",
+            "code": "422",
+            "def": "The air stream has, through means of two lamella placed at the head of the instrument, intermittent access to the column of air which is to be made to vibrate",
+            "subclasses": [
+              {
+                "name": "Oboes",
+                "code": "4221",
+                "def": "The pipe has a [double] reed of concussion lamellae (usually a flattened stem)",
+                "subclasses": [
+                  {
+                    "name": "(Single) oboes",
+                    "code": "42211",
+                    "subclasses": [
+                      {
+                        "name": "with cylindrical bore",
+                        "code": "422111",
+                        "subclasses": [
+                          {
+                            "name": "without fingerholes",
+                            "code": "4221111",
+                            "ex": "Brit. Columbia"
+                          },
+                          {
+                            "name": "with fingerholes",
+                            "code": "4221112",
+                            "ex": "Aulos, crumhorn"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "with conical bore",
+                        "code": "422112",
+                        "ex": "European oboe"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sets of oboes",
+                    "code": "42212",
+                    "subclasses": [
+                      {
+                        "name": "with cylindrical bore",
+                        "code": "422121",
+                        "ex": "Double aulos"
+                      },
+                      {
+                        "name": "with conical bore",
+                        "code": "422122",
+                        "def": "India"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Clarinets",
+                "code": "4222",
+                "def": "The pipe has a [single] 'reed' consisting of a percussion lamella",
+                "subclasses": [
+                  {
+                    "name": "(Single) clarinets",
+                    "code": "42221",
+                    "subclasses": [
+                      {
+                        "name": "with cylindrical bore",
+                        "code": "422211",
+                        "subclasses": [
+                          {
+                            "name": "without fingerholes",
+                            "code": "4222111",
+                            "ex": "Brit. Columbia"
+                          },
+                          {
+                            "name": "with fingerholes",
+                            "code": "4222112",
+                            "ex": "European clarinet"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "with conical bore",
+                        "code": "422212",
+                        "ex": "Saxophone"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sets of clarinets",
+                    "code": "42222",
+                    "ex": "Egypt (zummara)"
+                  }
+                ]
+              },
+              {
+                "name": "Reedpipes with free reeds",
+                "code": "4223",
+                "def": "The reed vibrates through [at] a closely fitted frame. There must be fingerholes, otherwise the instrument belongs to the free reeds 412.13",
+                "ex": "S.E. Asia",
+                "subclasses": [
+                  {
+                    "name": "Single pipes with free reed",
+                    "code": "42231"
+                  },
+                  {
+                    "name": "Double pipes with free reeds",
+                    "code": "42232"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Trumpets",
+            "code": "423",
+            "def": "The air-stream passes through the player's vibrating lips, so gaining intermittant access to the air column which is to be made to vibrate",
+            "ex": "S.E. Asia",
+            "subclasses": [
+              {
+                "name": "Natural trumpets",
+                "code": "4231",
+                "def": "Without extra devices to alter pitch",
+                "subclasses": [
+                  {
+                    "name": "Conches",
+                    "code": "42311",
+                    "def": "A conch shell serves as trumpet",
+                    "subclasses": [
+                      {
+                        "name": "end-blown",
+                        "code": "423111",
+                        "subclasses": [
+                          {
+                            "name": "without mouthpiece",
+                            "code": "4231111",
+                            "ex": "India"
+                          },
+                          {
+                            "name": "with mouthpiece",
+                            "code": "4231112",
+                            "ex": "Japan (rappakai)"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "side-blown",
+                        "code": "423112",
+                        "ex": "Oceania"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tubular trumpets",
+                    "code": "42312",
+                    "subclasses": [
+                      {
+                        "name": "End-blown trumpets",
+                        "code": "423121",
+                        "def": "The mouth-hole faces the axis of the trumpet",
+                        "subclasses": [
+                          {
+                            "name": "End-blown straight trumpets",
+                            "code": "4231211",
+                            "def": "The tube is neither curved nor folded",
+                            "subclasses": [
+                              {
+                                "name": "without mouthpiece",
+                                "code": "42312111",
+                                "ex": "Some alphorns"
+                              },
+                              {
+                                "name": "with mouthpiece",
+                                "code": "42312112",
+                                "ex": "Almost world-wide"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "End-blown horns",
+                            "code": "4231212",
+                            "def": "The tube is curved or folded",
+                            "subclasses": [
+                              {
+                                "name": "without mouthpiece",
+                                "code": "42312121",
+                                "ex": "Asia"
+                              },
+                              {
+                                "name": "with mouthpiece",
+                                "code": "42312122",
+                                "ex": "Lurs"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Side-blown trumpets",
+                        "code": "423122",
+                        "def": "The embouchure is in the side of the tube",
+                        "subclasses": [
+                          {
+                            "name": "Side-blown straight trumpets",
+                            "code": "4231221",
+                            "ex": "S. America"
+                          },
+                          {
+                            "name": "Side-blown horns",
+                            "code": "4231222",
+                            "ex": "Africa"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chromatic trumpets",
+                "code": "4232",
+                "def": "With extra devices to modify the pitch",
+                "subclasses": [
+                  {
+                    "name": "Trumpets with fingerholes",
+                    "code": "42321",
+                    "ex": "Cornetti, key bugles"
+                  },
+                  {
+                    "name": "Slide trumpets",
+                    "code": "42322",
+                    "def": "The tube can be lengthened by extending a telescopic section of the instrument",
+                    "ex": "European trombone"
+                  },
+                  {
+                    "name": "Trumpets with valves",
+                    "code": "42323",
+                    "def": "The tube is lengthened or shortened by connecting or disconnecting auxiliary lengths of tube",
+                    "ex": "Europe",
+                    "subclasses": [
+                      {
+                        "name": "Valve bugles",
+                        "code": "423231",
+                        "def": "The tube is conical throughout"
+                      },
+                      {
+                        "name": "Valve horns",
+                        "code": "423232",
+                        "def": "The tube is predominantly conical"
+                      },
+                      {
+                        "name": "Valve trumpets",
+                        "code": "423233",
+                        "def": "The tube is predominantly cylindrical"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "suffixes": [
+      {
+        "name": "with air reservoir",
+        "code": "-6",
+        "subclasses": [
+          {
+            "name": "with rigid air reservoir",
+            "code": "-61"
+          },
+          {
+            "name": "with flexible air reservoir",
+            "code": "-62"
+          }
+        ]
+      },
+      {
+        "name": "with fingerhole stopping",
+        "code": "-7",
+        "subclasses": [
+          {
+            "name": "with keys",
+            "code": "-71"
+          },
+          {
+            "name": "with <i>Bandmechanik</i> <span style='font-weight:normal'>[presumably a perforated roll or ribbon]</span>",
+            "code": "-72"
+          }
+        ]
+      },
+      {
+        "name": "with keyboard",
+        "code": "-8"
+      },
+      {
+        "name": "with mechanical drive",
+        "code": "-9"
+      }
+    ]
+  }
+]
