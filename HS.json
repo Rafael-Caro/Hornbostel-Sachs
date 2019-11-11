@@ -1395,7 +1395,7 @@
       {
         "name": "Simple chordophones or zithers",
         "code": "31",
-        "def": "The instrument consists solely of a string bearer, or of a string bearer with a resonator which is not integral and can be detached without destroying th sound-producing apparatus",
+        "def": "The instrument consists solely of a string bearer, or of a string bearer with a resonator which is not integral and can be detached without destroying the sound-producing apparatus",
         "subclasses": [
           {
             "name": "Bar zithers",
