@@ -2626,10 +2626,12 @@
         "subclasses": [
           {
             "name": "with rigid air reservoir",
+            "replace": true,
             "code": "-61"
           },
           {
             "name": "with flexible air reservoir",
+            "replace": true,
             "code": "-62"
           }
         ]

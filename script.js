@@ -105,7 +105,7 @@ function removeLowerSections(level) {
 
 function resultInstrument(code, name) {
   if (code[0] === '-') {
-
+    
   } else {
     var lastName;
     document.getElementById('code').innerHTML = prettyCode(code);
