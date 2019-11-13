@@ -52,7 +52,6 @@ function click(e) {
   var thisBox;
   if (isSufSec) {
     thisSuf = code.slice(1, code.length+1);
-    console.log(thisSuf);
     for (var i = 0; i < thisSuf.length; i++) {
       if (i === 0) {
         thisBox = suffixes[Number(thisSuf[i]) - sufSelector];
@@ -69,7 +68,6 @@ function click(e) {
       }
     }
   }
-  console.log(thisBox);
   var newLevelLabel = 'l' + (thisLevel + 1);
   removeLowerSections(thisLevel);
   if (thisLevel === 1) {
@@ -121,7 +119,12 @@ function resultInstrument(code, name) {
           tempLevel = tempLevel.subclasses[Number(code[i])-1];
           var tempName = tempLevel.name;
           if (tempName[0] === tempName[0].toLowerCase()) {
-            lastName += ' ' + tempName;
+            if (Object.keys(tempLevel).includes('replace')) {
+              var j = lastName.lastIndexOf(tempName.slice(0, 4));
+              lastName = lastName.slice(0, j) + tempName;
+            } else {
+              lastName += ' ' + tempName;
+            }
           } else {
             lastName = tempName;
           }

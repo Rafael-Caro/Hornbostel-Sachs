@@ -1078,6 +1078,7 @@
             "subclasses": [
               {
                 "name": "with inserted stick",
+                "replace": true,
                 "code": "2311",
                 "def": "The stick passes through a hole in the membrane",
                 "subclasses": [
@@ -1103,6 +1104,7 @@
               },
               {
                 "name": "with tied stick",
+                "replace": true,
                 "code": "2312",
                 "def": "The stick is tied to the membrane in an upright position",
                 "ex": "Europe"
@@ -1459,11 +1461,13 @@
                             "subclasses": [
                               {
                                 "name": "with independent resonator",
+                                "replace": true,
                                 "code": "31112121",
                                 "ex": "Borneo (busoi)"
                               },
                               {
                                 "name": "with resonator attached",
+                                "replace": true,
                                 "code": "31112122",
                                 "subclasses": [
                                   {
@@ -1626,12 +1630,14 @@
                     "subclasses": [
                       {
                         "name": "with resonator bowl",
+                        "replace": true,
                         "code": "314121",
                         "def": "The resonator is a fruit shell or similar object, or an artificially carved equivalent",
                         "ex": "Nyasa region"
                       },
                       {
                         "name": "with resonator box (box zither)",
+                        "replace": true,
                         "code": "314122",
                         "def": "The resonator is made from slats",
                         "ex": "Zither, Hackbrett, pianoforte"
