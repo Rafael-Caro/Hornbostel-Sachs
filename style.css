@@ -40,6 +40,10 @@ main {
   background-color: lightyellow;
 }
 
+.sufSec .box {
+  background-color: seashell;
+}
+
 h3 {
   margin: 0 10px;
   text-align: center;
@@ -54,10 +58,20 @@ h3, p {
   background-color: yellow;
 }
 
+.sufSec .selected {
+  background-color: lightsalmon;
+}
+
 .discarded {
   background-color: white;
   color: lightgray;
   border-color: lightgray;
+}
+
+.sufSec .discarded {
+  background-color: white;
+  color: peachpuff;
+  border-color: peachpuff;
 }
 
 #instrument {

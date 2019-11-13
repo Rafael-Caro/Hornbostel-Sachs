@@ -1,6 +1,8 @@
-var x;
 const hsURL = './HS.json';
 var hs;
+var suffixes;
+var sufSelector;
+
 var request = new XMLHttpRequest();
 request.open('GET', hsURL);
 request.responseType='json';
@@ -11,26 +13,26 @@ request.onload = function() {
   equalHeight('l1');
 }
 
-function inBoxing(list, level) {
-  var boxWidth = (1200 / list.length - 10).toString() + "px";
-  for (let i = 0; i < list.length; i++) {
+function inBoxing(boxes, level, isSufSec) {
+  var boxWidth = (1200 / boxes.length - 10).toString() + "px";
+  for (let i = 0; i < boxes.length; i++) {
     var box = document.createElement('div');
     box.setAttribute('class', 'box');
     box.style.width = boxWidth;
-    box.id = list[i].code;
+    box.id = boxes[i].code;
     box.addEventListener('click', click);
     var name = document.createElement('h3');
-    name.innerHTML = list[i].name;
+    name.innerHTML = boxes[i].name;
     box.appendChild(name);
-    if (Object.keys(list[i]).includes('def')) {
+    if (Object.keys(boxes[i]).includes('def')) {
       var def = document.createElement('p');
-      def.innerHTML = list[i].def;
+      def.innerHTML = boxes[i].def;
       box.appendChild(def);
     }
-    if (Object.keys(list[i]).includes('ex')) {
+    if (Object.keys(boxes[i]).includes('ex')) {
       var ex = document.createElement('p');
       ex.setAttribute('class', 'ex');
-      ex.innerHTML = list[i].ex;
+      ex.innerHTML = boxes[i].ex;
       box.appendChild(ex);
     }
     var sec = document.getElementById(level);
@@ -39,36 +41,66 @@ function inBoxing(list, level) {
 }
 
 function click(e) {
-  selected(e);
+  selectedBox(e);
+  var isSufSec = e.target.parentNode.classList.contains('sufSec');
+  var thisLevel = Number(e.target.parentNode.id.slice(1, e.target.parentNode.id.length+1));
   var code = e.target.id;
-  document.getElementById('code').innerHTML = prettyCode(code);
-  document.getElementById('instrument').innerHTML = "- " + e.target.children[0].innerHTML;
-  var l = Number(code.length) + 1;
-  checkSection(l);
-  var subclasses;
-  for (var i = 0; i < code.length; i++) {
-    j = Number(code[i]);
-    if (i === 0) {
-      subclasses = hs[code[i]-1];
-    } else {
-      subclasses = subclasses.subclasses[code[i]-1];
+  var thisBox;
+  if (isSufSec) {
+    thisSuf = code.slice(1, code.length+1);
+    console.log(thisSuf);
+    for (var i = 0; i < thisSuf.length; i++) {
+      if (i === 0) {
+        thisBox = suffixes[Number(thisSuf[i]) - sufSelector];
+      } else {
+        thisBox = thisBox.subclasses[Number(thisSuf[i]-1)];
+      }
+    }
+  } else {
+    for (var i = 0; i < code.length; i++) {
+      if (i === 0) {
+        thisBox = hs[Number(code[i]-1)];
+      } else {
+        thisBox = thisBox.subclasses[Number(code[i]-1)];
+      }
     }
   }
-  if (Object.keys(subclasses).includes('subclasses')) {
-    var sec = document.createElement('section');
-    sec.id = 'l'+l;
-    document.querySelector('main').appendChild(sec);
-    inBoxing(subclasses.subclasses, 'l'+l);
-    sec.focus();
+  console.log(thisBox);
+  var newLevelLabel = 'l' + (thisLevel + 1);
+  removeLowerSections(thisLevel);
+  if (thisLevel === 1) {
+    suffixes = hs[code[0]-1].suffixes;
+    sufSelector = 10 - suffixes.length;
   }
-  equalHeight('l'+l);
+  var lowerLevel;
+  if (Object.keys(thisBox).includes('subclasses')) {
+    var section = document.createElement('section');
+    section.id = newLevelLabel;
+    if (isSufSec) {
+      section.setAttribute('class', 'sufSec');
+    } else {
+      document.getElementById('code').innerHTML = prettyCode(code);
+      document.getElementById('instrument').innerHTML = "- " + e.target.children[0].innerHTML;
+    }
+    document.querySelector('main').appendChild(section);
+    inBoxing(thisBox.subclasses, newLevelLabel);
+    equalHeight(newLevelLabel);
+  } else if (!isSufSec) {
+    document.getElementById('code').innerHTML = prettyCode(code);
+    document.getElementById('instrument').innerHTML = "- " + e.target.children[0].innerHTML;
+    var section = document.createElement('section');
+    section.id = newLevelLabel;
+    document.querySelector('main').appendChild(section);
+    section.setAttribute('class', 'sufSec');
+    inBoxing(suffixes, newLevelLabel);
+    equalHeight(newLevelLabel);
+  }
 }
 
-function checkSection(l) {
+function removeLowerSections(level) {
   var sections = document.querySelectorAll("section");
-  var currentL = Number(sections[sections.length-1].id[1]);
   for (var i = 0; i < sections.length; i++) {
-    if (Number(sections[i].id[1]) >= l) {
+    if (i >= level) {
       sections[i].remove();
     }
   }
@@ -84,7 +116,7 @@ function prettyCode(code) {
   }
 }
 
-function selected(e) {
+function selectedBox(e) {
   var id = e.target.id;
   var brothers = e.target.parentNode.children;
   for (i = 0; i < brothers.length; i++) {
