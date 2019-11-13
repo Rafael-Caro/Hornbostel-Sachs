@@ -310,7 +310,7 @@
         "def": "Lamellae, i.e. elastic plaques, fixed at one end, are flexed and then released to return to their position of rest",
         "subclasses": [
           {
-            "name": "In the form of a frame",
+            "name": "in the form of a frame",
             "code": "121",
             "def": "The lamella vibrates within a frame or hoop",
             "subclasses": [
@@ -344,7 +344,7 @@
                       {
                         "name": "Sets of heteroglot guimbardes",
                         "code": "121222",
-                        "def": "several heteroglot guimbardes of different pitches are combined to form a single instrument",
+                        "def": "Several heteroglot guimbardes of different pitches are combined to form a single instrument",
                         "ex": "Aura"
                       }
                     ]
@@ -354,28 +354,28 @@
             ]
           },
           {
-            "name": "In board or comb-form",
+            "name": "in board or comb-form",
             "code": "122",
             "def": "The lamellae are tied to a board or cut out from a board like the teeth of a comb",
             "subclasses": [
               {
-                "name": "With laced-on lamellae",
+                "name": "with laced-on lamellae",
                 "code": "1221",
                 "subclasses": [
                   {
-                    "name": "Without resonator",
+                    "name": "without resonator",
                     "code": "12211",
                     "ex": "All sansas on a plain board"
                   },
                   {
-                    "name": "With resonator",
+                    "name": "with resonator",
                     "code": "12212",
                     "ex": "All sansas with a box or bowl below the board"
                   }
                 ]
               },
               {
-                "name": "With cut-out lamellae <span style='font-weight:normal'>(musical boxes)</span>",
+                "name": "with cut-out lamellae <span style='font-weight:normal'>(musical boxes)</span>",
                 "code": "1222",
                 "def": "Pins on a cylinder pluck the lamellae",
                 "ex": "Europe"
@@ -403,13 +403,13 @@
                 "code": "1312",
                 "subclasses": [
                   {
-                    "name": "With direct friction",
+                    "name": "with direct friction",
                     "code": "13121",
                     "def": "The sticks themselves are rubbed",
                     "ex": "Nail fiddle, nail piano, Stockspiele"
                   },
                   {
-                    "name": "With indirect friction",
+                    "name": "with indirect friction",
                     "code": "13122",
                     "def": "The sticks are connected with others which are rubbed and, by transmitting their longitudinal vibrations, stimulate transverse vibration in the former",
                     "ex": "Chladni's euphon"
@@ -1077,7 +1077,7 @@
             "def": "A stick in contact with the membrane is either itself rubbed, or is employed to rub the membrane",
             "subclasses": [
               {
-                "name": "With inserted stick",
+                "name": "with inserted stick",
                 "code": "2311",
                 "def": "The stick passes through a hole in the membrane",
                 "subclasses": [
@@ -1102,7 +1102,7 @@
                 ]
               },
               {
-                "name": "With tied stick",
+                "name": "with tied stick",
                 "code": "2312",
                 "def": "The stick is tied to the membrane in an upright position",
                 "ex": "Europe"
@@ -1264,7 +1264,7 @@
             ]
           },
           {
-            "name": "Cord-and-flange bracing",
+            "name": "cord-and-flange bracing",
             "code": "-84",
             "def": "The cords are laced at the lower end to a flange carved from the solid",
             "ex": "Africa",
@@ -1291,7 +1291,7 @@
             ]
           },
           {
-            "name": "Cord-and-belt bracing",
+            "name": "cord-and-belt bracing",
             "code": "-85",
             "def": "The cords are laced at the lower end to a belt of different material",
             "ex": "India",
@@ -1318,7 +1318,7 @@
             ]
           },
           {
-            "name": "Cord-and-peg bracing",
+            "name": "cord-and-peg bracing",
             "code": "-86",
             "def": "The cords are laced at the lower end to pegs stuck into the wall of the drum",
             "ex": "Africa",
@@ -1665,11 +1665,11 @@
             "def": "The strings are stretched across the mouth of a trough",
             "subclasses": [
               {
-                "name": "Without resonator",
+                "name": "without resonator",
                 "code": "3151"
               },
               {
-                "name": "With resonator",
+                "name": "with resonator",
                 "code": "3152",
                 "def": "The trough has a gourd or a similar object attached to it"
               }

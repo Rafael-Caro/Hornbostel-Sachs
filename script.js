@@ -41,10 +41,14 @@ function inBoxing(boxes, level, isSufSec) {
 }
 
 function click(e) {
-  selectedBox(e);
   var isSufSec = e.target.parentNode.classList.contains('sufSec');
   var thisLevel = Number(e.target.parentNode.id.slice(1, e.target.parentNode.id.length+1));
   var code = e.target.id;
+  var name = e.target.children[0].innerHTML;
+  if (!e.target.classList.contains('selected')) {
+    resultInstrument(code, name);
+    selectedBox(e);
+  }
   var thisBox;
   if (isSufSec) {
     thisSuf = code.slice(1, code.length+1);
@@ -78,16 +82,11 @@ function click(e) {
     section.id = newLevelLabel;
     if (isSufSec) {
       section.setAttribute('class', 'sufSec');
-    } else {
-      document.getElementById('code').innerHTML = prettyCode(code);
-      document.getElementById('instrument').innerHTML = "- " + e.target.children[0].innerHTML;
     }
     document.querySelector('main').appendChild(section);
     inBoxing(thisBox.subclasses, newLevelLabel);
     equalHeight(newLevelLabel);
   } else if (!isSufSec) {
-    document.getElementById('code').innerHTML = prettyCode(code);
-    document.getElementById('instrument').innerHTML = "- " + e.target.children[0].innerHTML;
     var section = document.createElement('section');
     section.id = newLevelLabel;
     document.querySelector('main').appendChild(section);
@@ -103,6 +102,35 @@ function removeLowerSections(level) {
     if (i >= level) {
       sections[i].remove();
     }
+  }
+}
+
+function resultInstrument(code, name) {
+  if (code[0] === '-') {
+
+  } else {
+    var lastName;
+    document.getElementById('code').innerHTML = prettyCode(code);
+    if (name[0] === name[0].toLowerCase()) {
+      var tempLevel;
+      for (var i = 0; i < code.length; i++) {
+        if (i === 0) {
+          tempLevel = hs[Number(code[i])-1];
+          lastName = tempLevel.name;
+        } else {
+          tempLevel = tempLevel.subclasses[Number(code[i])-1];
+          var tempName = tempLevel.name;
+          if (tempName[0] === tempName[0].toLowerCase()) {
+            lastName += ' ' + tempName;
+          } else {
+            lastName = tempName;
+          }
+        }
+      }
+    } else {
+      lastName = name;
+    }
+    document.getElementById('instrument').innerHTML = " - " + lastName;
   }
 }
 
