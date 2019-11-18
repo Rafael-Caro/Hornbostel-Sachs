@@ -20,6 +20,9 @@ function inBoxing(boxes, level, isSufSec) {
     box.setAttribute('class', 'box');
     box.style.width = boxWidth;
     box.id = boxes[i].code;
+    if (box.id[0] === '5') {
+      box.setAttribute('class', 'elec');
+    }
     box.addEventListener('click', click);
     var name = document.createElement('h3');
     name.innerHTML = boxes[i].name;
@@ -105,7 +108,7 @@ function removeLowerSections(level) {
 
 function resultInstrument(code, name) {
   if (code[0] === '-') {
-    
+
   } else {
     var lastName;
     document.getElementById('code').innerHTML = prettyCode(code);

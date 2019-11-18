@@ -40,6 +40,17 @@ main {
   background-color: lightyellow;
 }
 
+.elec {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  margin: 15px 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightcyan;
+}
+
 .sufSec .box {
   background-color: papayawhip;
 }
@@ -56,6 +67,10 @@ h3, p {
 
 .selected {
   background-color: yellow;
+}
+
+.elec.selected {
+  background-color: dodgerblue;
 }
 
 .sufSec .selected {

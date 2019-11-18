@@ -2659,5 +2659,314 @@
         "code": "-9"
       }
     ]
+  },
+  {
+    "name": "ELECTROPHONES",
+    "code": "5",
+    "subclasses": [
+      {
+        "name": "Synthesizers",
+        "code": "51",
+        "subclasses": [
+          {
+            "name": "analog",
+            "code": "511",
+            "subclasses": [
+              {
+                "name": "with electromechanical tone generators",
+                "code": "5111",
+                "subclasses": [
+                  {
+                    "name": "Tone wheel",
+                    "code": "51111",
+                    "subclasses": [
+                      {
+                        "name": "monophonic",
+                        "code": "511111"
+                      },
+                      {
+                        "name": "partially polyphonic",
+                        "code": "511112"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "511113"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "photoelectric",
+                    "code": "51112",
+                    "subclasses": [
+                      {
+                        "name": "monophonic",
+                        "code": "511121"
+                      },
+                      {
+                        "name": "partially polyphonic",
+                        "code": "511122"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "511123"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "with oscillators",
+                "code": "5112",
+                "subclasses": [
+                  {
+                    "name": "without micro-processors",
+                    "code": "51121",
+                    "subclasses": [
+                      {
+                        "name": "monophonic",
+                        "code": "511211"
+                      },
+                      {
+                        "name": "partially polyphonic",
+                        "code": "511212"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "511213"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "with micro-processors",
+                    "code": "51122",
+                    "subclasses": [
+                      {
+                        "name": "monophonic",
+                        "code": "511221"
+                      },
+                      {
+                        "name": "partially polyphonic",
+                        "code": "511222"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "511223"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "digital",
+            "code": "512",
+            "subclasses": [
+              {
+                "name": "Computer synthesis",
+                "code": "5121",
+                "subclasses": [
+                  {
+                    "name": "with micro-processors",
+                    "code": "51211"
+                  },
+                  {
+                    "name": "direct synthesis",
+                    "code": "51212"
+                  },
+                  {
+                    "name": "with voltage control attenuators",
+                    "code": "51213"
+                  }
+                ]
+              },
+              {
+                "name": "Self-contained CPUs",
+                "code": "5122",
+                "subclasses": [
+                  {
+                    "name": "additive",
+                    "code": "51221",
+                    "subclasses": [
+                      {
+                        "name": "partially polyphonic",
+                        "code": "512211"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "512212"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Digital controlled oscillators",
+                    "code": "51222",
+                    "subclasses": [
+                      {
+                        "name": "partially polyphonic",
+                        "code": "512221"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "512222"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Frequency modulation",
+                    "code": "51223",
+                    "subclasses": [
+                      {
+                        "name": "partially polyphonic",
+                        "code": "512231"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "512232"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Phase distortion",
+                    "code": "51224",
+                    "subclasses": [
+                      {
+                        "name": "partially polyphonic",
+                        "code": "512241"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "512242"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Vector synthesis",
+                    "code": "51225",
+                    "subclasses": [
+                      {
+                        "name": "partially polyphonic",
+                        "code": "512251"
+                      },
+                      {
+                        "name": "fully polyphonic",
+                        "code": "512252"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samplers",
+        "code": "52",
+        "subclasses": [
+          {
+            "name": "analog",
+            "code": "521",
+            "subclasses": [
+              {
+                "name": "Magnetic tape",
+                "code": "5211",
+                "subclasses": [
+                  {
+                    "name": "manual",
+                    "code": "52111"
+                  },
+                  {
+                    "name": "automatic",
+                    "code": "52112"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "digital",
+            "code": "522"
+          }
+        ]
+      },
+      {
+        "name": "Hybrids",
+        "code": "53",
+        "subclasses": [
+          {
+            "name": "Wavetable synthesis",
+            "code": "531",
+            "subclasses": [
+              {
+                "name": "partially polyphonic",
+                "code": "5311"
+              },
+              {
+                "name": "fully polyphonic",
+                "code": "5312"
+              }
+            ]
+          },
+          {
+            "name": "Cross-table sampling",
+            "code": "532",
+            "subclasses": [
+              {
+                "name": "partially polyphonic",
+                "code": "5321"
+              },
+              {
+                "name": "fully polyphonic",
+                "code": "5322"
+              }
+            ]
+          },
+          {
+            "name": "Structured adaptive synthesis",
+            "code": "533",
+            "subclasses": [
+              {
+                "name": "partially polyphonic",
+                "code": "5331"
+              },
+              {
+                "name": "fully polyphonic",
+                "code": "5332"
+              }
+            ]
+          },
+          {
+            "name": "Linear arithmetic",
+            "code": "534",
+            "subclasses": [
+              {
+                "name": "partially polyphonic",
+                "code": "5341"
+              },
+              {
+                "name": "fully polyphonic",
+                "code": "5342"
+              }
+            ]
+          },
+          {
+            "name": "Combination hybrids",
+            "code": "535",
+            "subclasses": [
+              {
+                "name": "partially polyphonic",
+                "code": "5351"
+              },
+              {
+                "name": "fully polyphonic",
+                "code": "5352"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "suffixes": []
   }
 ]
