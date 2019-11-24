@@ -29,6 +29,10 @@ main {
   box-sizing: border-box;
 }
 
+.suffixDiv {
+  display: inline-block;
+}
+
 .box {
   box-sizing: border-box;
   display: inline-block;
@@ -41,17 +45,10 @@ main {
 }
 
 .elec {
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
-  padding: 1em;
-  margin: 15px 5px;
-  border: 1px solid black;
-  border-radius: 10px;
   background-color: lightcyan;
 }
 
-.sufSec .box {
+.suffix {
   background-color: papayawhip;
 }
 
@@ -73,7 +70,7 @@ h3, p {
   background-color: dodgerblue;
 }
 
-.sufSec .selected {
+.suffix.selected {
   background-color: lightsalmon;
 }
 
@@ -89,7 +86,7 @@ h3, p {
   border-color: peachpuff;
 }
 
-#instrument {
+#instrument, #instSuf {
   font-weight: normal;
 }
 
