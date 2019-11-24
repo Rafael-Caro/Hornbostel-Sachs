@@ -16,7 +16,7 @@ request.onload = function() {
 
 function click(e) {
   if (e.target.classList.contains('suffix')) {
-    subSuffixes(e);
+    // subSuffixes(e);
   } else {
     subTree(e);
   }
@@ -28,6 +28,8 @@ function subTree(e) {
   removeLowerBranches(thisLevel);
   var code = e.target.id;
   if (thisLevel === 1) {
+    document.getElementById('codeSuf').innerHTML = '';
+    document.getElementById('instSuf').innerHTML = '';
     suffixes = hs[Number(code[0])-1].suffixes;
     sufSelector = 10 - suffixes.length;
     sufBoxes();
@@ -54,8 +56,28 @@ function subTree(e) {
 }
 
 function subSuffixes(e) {
-  var sufDivCode = Number(e.target.parentNode.id.slice(1, e.target.parentNode.id.length))-1;
-  console.log(suffixes[sufDivCode]);
+  var sufDiv = e.target.parentNode;
+  var sufDivCode = sufDiv.id.slice(1, sufDiv.id.length);
+  var thisSuf;
+  for (var i = 0; i < sufDivCode.length; i++) {
+    if (i === 0) {
+      thisSuf = suffixes[Number(sufDivCode[i])-1];
+    } else {
+      thisSuf = thisSuf.subclasses[0];
+    }
+  }
+  if (Object.keys(thisSuf).includes('subclasses')) {
+    var subclasses = thisSuf.subclasses;
+    for (var i = 0; i < subclasses.length; i++) {
+      var subSufDiv = document.createElement('div');
+      subSufDiv.id = sufDiv.id + (i + 1).toString();
+      var boxWidth = e.target.offsetWidth;
+      console.log(boxWidth);
+      var box = createBox(subclasses[i], boxWidth, true)
+      subSufDiv.appendChild(box);
+      sufDiv.appendChild(subSufDiv);
+    }
+  }
 }
 
 function removeLowerBranches(level) {
