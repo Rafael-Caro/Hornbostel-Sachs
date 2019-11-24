@@ -48,10 +48,8 @@ function click(e) {
   var thisLevel = Number(e.target.parentNode.id.slice(1, e.target.parentNode.id.length+1));
   var code = e.target.id;
   var name = e.target.children[0].innerHTML;
-  if (!e.target.classList.contains('selected')) {
-    resultInstrument(code, name);
-    selectedBox(e);
-  }
+  resultInstrument(code, name);
+  selectedBox(e);
   var thisBox;
   if (isSufSec) {
     thisSuf = code.slice(1, code.length+1);
