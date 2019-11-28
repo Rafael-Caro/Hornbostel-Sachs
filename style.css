@@ -29,6 +29,10 @@ main {
   box-sizing: border-box;
 }
 
+#tree {
+  margin-bottom: 25px;
+}
+
 .suffixDiv {
   display: inline-block;
   vertical-align: top;
@@ -39,7 +43,7 @@ main {
   display: inline-block;
   vertical-align: top;
   padding: 1em;
-  margin: 15px 5px;
+  margin: 2px 5px;
   border: 1px solid black;
   border-radius: 10px;
   background-color: lightyellow;

@@ -1184,6 +1184,7 @@
           {
             "name": "cord-(ribbon-) bracing",
             "code": "-81",
+            "replace": "membrane laced to drum",
             "def": "The cords are stretched from membrane to membrane or arranged in form of a net, without employing any of the devices described below",
             "subclasses": [
               {
@@ -1214,6 +1215,7 @@
           {
             "name": "cord-and-hide bracing",
             "code": "-82",
+            "replace": "membrane laced to drum",
             "def": "The cords are laced at the lower end to a non-sonorous piece of hide",
             "ex": "Africa",
             "subclasses": [
@@ -1241,6 +1243,7 @@
           {
             "name": "cord-and-board bracing",
             "code": "-83",
+            "replace": "membrane laced to drum",
             "def": "The cords are laced to an auxiliary board",
             "ex": "Sumatra",
             "subclasses": [
@@ -1268,6 +1271,7 @@
           {
             "name": "cord-and-flange bracing",
             "code": "-84",
+            "replace": "membrane laced to drum",
             "def": "The cords are laced at the lower end to a flange carved from the solid",
             "ex": "Africa",
             "subclasses": [
@@ -1295,6 +1299,7 @@
           {
             "name": "cord-and-belt bracing",
             "code": "-85",
+            "replace": "membrane laced to drum",
             "def": "The cords are laced at the lower end to a belt of different material",
             "ex": "India",
             "subclasses": [
@@ -1322,6 +1327,7 @@
           {
             "name": "cord-and-peg bracing",
             "code": "-86",
+            "replace": "membrane laced to drum",
             "def": "The cords are laced at the lower end to pegs stuck into the wall of the drum",
             "ex": "Africa",
             "subclasses": [
@@ -1354,12 +1360,12 @@
         "def": "A ring is slipped over the edge of the membrane",
         "subclasses": [
           {
-            "name": "with membrane lapped on by ring of cord",
+            "name": "by ring of cord",
             "code": "-91",
             "ex": "Africa"
           },
           {
-            "name": "with membrane lapped on by a hoop",
+            "name": "by a hoop",
             "code": "-92",
             "subclasses": [
               {

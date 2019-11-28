@@ -3,6 +3,7 @@ var hs;
 var suffixes;
 var sufSelector;
 var branches;
+var shift = 30;
 
 var request = new XMLHttpRequest();
 request.open('GET', hsURL);
@@ -16,11 +17,73 @@ request.onload = function() {
 
 function click(e) {
   if (e.target.classList.contains('suffix')) {
-    // subSuffixes(e);
+    if (e.target.id.length === 2) {
+      selectedSuf(e);
+    } else {
+      selectedSubSuf(e);
+    }
   } else {
-    subTree(e);
+    selectedBox(e);
   }
-  selectedBox(e);
+}
+
+function selectedBox(e) {
+  var id = e.target.id;
+  var brothers = e.target.parentNode.children;
+  for (i = 0; i < brothers.length; i++) {
+    if (brothers[i].id === id) {
+      brothers[i].classList.add('selected');
+      brothers[i].classList.remove('discarded');
+    } else {
+      brothers[i].classList.remove('selected');
+      brothers[i].classList.add('discarded');
+    }
+  }
+  subTree(e);
+}
+
+function selectedSuf(e) {
+  if (e.target.classList.contains('selected')) {
+    e.target.classList.remove('selected');
+    document.getElementById('c'+e.target.id).remove();
+    document.getElementById('n'+e.target.id).remove();
+    var subSuf = e.target.parentNode.children;
+    for (var i = subSuf.length-1; i >= 0; i--) {
+      if (!subSuf[i].classList.contains('box')) {
+        document.getElementById(subSuf[i].id).remove();
+      }
+    }
+  } else {
+    e.target.classList.add('selected');
+    var codeSufSpan = document.createElement('span');
+    codeSufSpan.id = 'c'+e.target.id;
+    var codeSuf = document.getElementById('codeSuf');
+    codeSuf.appendChild(codeSufSpan);
+    var nameSufSpan = document.createElement('span');
+    nameSufSpan.id = 'n'+e.target.id;
+    var instSuf = document.getElementById('instSuf');
+    instSuf.appendChild(nameSufSpan);
+    subSuffixes(e);
+  }
+}
+
+function selectedSubSuf(e) {
+  var divId = e.target.parentNode.id;
+  var brothers = e.target.parentNode.parentNode.children;
+  for (var i = 1; i < brothers.length; i++) {
+    if (brothers[i].id === divId) {
+      brothers[i].children[0].classList.add('selected');
+      brothers[i].children[0].classList.remove('discarded');
+    } else {
+      brothers[i].children[0].classList.remove('selected');
+      brothers[i].children[0].classList.add('discarded');
+      for (var j = brothers[i].children.length-1; j > 0 ; j--) {
+        brothers[i].children[j];
+        document.getElementById(brothers[i].children[j].id).remove();
+      }
+    }
+  }
+  subSuffixes(e);
 }
 
 function subTree(e) {
@@ -59,25 +122,39 @@ function subSuffixes(e) {
   var sufDiv = e.target.parentNode;
   var sufDivCode = sufDiv.id.slice(1, sufDiv.id.length);
   var thisSuf;
+  var suffix;
+  var nameSufSpan;
   for (var i = 0; i < sufDivCode.length; i++) {
     if (i === 0) {
       thisSuf = suffixes[Number(sufDivCode[i])-1];
+      suffix = ', ' + thisSuf.name;
+      nameSufSpan = document.getElementById('n'+thisSuf.code);
     } else {
-      thisSuf = thisSuf.subclasses[0];
+      thisSuf = thisSuf.subclasses[Number(sufDivCode[i])-1];
+      if (Object.keys(thisSuf).includes('replace')) {
+        suffix = suffix.replace(thisSuf.replace, thisSuf.name);
+      } else {
+        suffix += ' ' + thisSuf.name;
+      }
     }
   }
+  nameSufSpan.innerHTML = suffix;
   if (Object.keys(thisSuf).includes('subclasses')) {
     var subclasses = thisSuf.subclasses;
     for (var i = 0; i < subclasses.length; i++) {
       var subSufDiv = document.createElement('div');
       subSufDiv.id = sufDiv.id + (i + 1).toString();
-      var boxWidth = e.target.offsetWidth;
-      console.log(boxWidth);
-      var box = createBox(subclasses[i], boxWidth, true)
+      var boxWidth = (e.target.offsetWidth - shift).toString() + 'px';
+      var box = createBox(subclasses[i], boxWidth, true);
+      if (e.target.id.length > 1) {
+        box.style.position = 'relative';
+        box.style.left = (shift * (e.target.id.length-1)).toString() + 'px';
+      }
       subSufDiv.appendChild(box);
       sufDiv.appendChild(subSufDiv);
     }
   }
+  document.getElementById('c'+thisSuf.code.slice(0, 2)).innerHTML = thisSuf.code;
 }
 
 function removeLowerBranches(level) {
@@ -133,6 +210,15 @@ function resultInstrument(code, name) {
   }
 }
 
+function sufCodeName (code, name, replace) {
+  var codeSuf = document.getElementById('c'+code.slice(0, 2));
+  var instSuf = document.getElementById('n'+code.slice(0, 2));
+  codeSuf.innerHTML = code;
+  if (replace === null) {
+    instSuf.innerHTML = instSuf.innerHTML + name;
+  }
+}
+
 function removeSuffix (code, name) {
   document.getElementById('codeSuf').innerHTML = document.getElementById('codeSuf').innerHTML.replace(code, '');
   document.getElementById('instSuf').innerHTML = document.getElementById('instSuf').innerHTML.replace(name, '');
@@ -145,30 +231,6 @@ function prettyCode(code) {
     return code.slice(0, 3) + '.' + code.slice(3);
   } else {
     return code;
-  }
-}
-
-function selectedBox(e) {
-  var id = e.target.id;
-  if (e.target.classList.contains('suffix')) {
-    if (e.target.classList.contains('selected')) {
-      e.target.classList.remove('selected');
-      removeSuffix(e.target.id, ' ' + e.target.children[0].innerHTML);
-    } else {
-      e.target.classList.add('selected');
-      resultInstrument(e.target.id, ' ' + e.target.children[0].innerHTML);
-    }
-  } else {
-    var brothers = e.target.parentNode.children;
-    for (i = 0; i < brothers.length; i++) {
-      if (brothers[i].id === id) {
-        brothers[i].classList.add('selected');
-        brothers[i].classList.remove('discarded');
-      } else {
-        brothers[i].classList.remove('selected');
-        brothers[i].classList.add('discarded');
-      }
-    }
   }
 }
 
@@ -196,6 +258,7 @@ function sufBoxes() {
     sufDiv.setAttribute('class', 'suffixDiv');
     sufDiv.id = 's' + (i + 1).toString();
     var box = createBox(suffixes[i], boxWidth, true)
+    // box.style.marginBottom = '2px';
     sufDiv.appendChild(box);
     sufSec.appendChild(sufDiv);
   }
