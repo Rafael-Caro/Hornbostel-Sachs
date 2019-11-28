@@ -2675,7 +2675,7 @@
         "code": "51",
         "subclasses": [
           {
-            "name": "Analog",
+            "name": "analog",
             "code": "511",
             "pre": true,
             "subclasses": [
@@ -2688,39 +2688,39 @@
                     "code": "51111",
                     "subclasses": [
                       {
-                        "name": "Monophonic",
+                        "name": "monophonic",
                         "code": "511111",
                         "pre": true
                       },
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "511112",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "511113",
                         "pre": true
                       }
                     ]
                   },
                   {
-                    "name": "Photoelectric",
+                    "name": "photoelectric",
                     "code": "51112",
                     "pre": true,
                     "subclasses": [
                       {
-                        "name": "Monophonic",
+                        "name": "monophonic",
                         "code": "511121",
                         "pre": true
                       },
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "511122",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "511123",
                         "pre": true
                       }
@@ -2737,17 +2737,17 @@
                     "code": "51121",
                     "subclasses": [
                       {
-                        "name": "Monophonic",
+                        "name": "monophonic",
                         "code": "511211",
                         "pre": true
                       },
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "511212",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "511213",
                         "pre": true
                       }
@@ -2758,18 +2758,18 @@
                     "code": "51122",
                     "subclasses": [
                       {
-                        "name": "Monophonic",
-                        "code": "511211",
+                        "name": "monophonic",
+                        "code": "511221",
                         "pre": true
                       },
                       {
-                        "name": "Partially polyphonic",
-                        "code": "511212",
+                        "name": "partially polyphonic",
+                        "code": "511222",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
-                        "code": "511213",
+                        "name": "fully polyphonic",
+                        "code": "511223",
                         "pre": true
                       }
                     ]
@@ -2779,7 +2779,7 @@
             ]
           },
           {
-            "name": "Digital",
+            "name": "digital",
             "code": "512",
             "pre": true,
             "subclasses": [
@@ -2807,17 +2807,17 @@
                 "code": "5122",
                 "subclasses": [
                   {
-                    "name": "Additive",
+                    "name": "additive",
                     "code": "51221",
                     "pre": true,
                     "subclasses": [
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "512211",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "512212",
                         "pre": true
                       }
@@ -2828,12 +2828,12 @@
                     "code": "51222",
                     "subclasses": [
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "512221",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "512222",
                         "pre": true
                       }
@@ -2844,12 +2844,12 @@
                     "code": "51223",
                     "subclasses": [
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "512231",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "512232",
                         "pre": true
                       }
@@ -2860,12 +2860,12 @@
                     "code": "51224",
                     "subclasses": [
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "512241",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "512242",
                         "pre": true
                       }
@@ -2876,12 +2876,12 @@
                     "code": "51225",
                     "subclasses": [
                       {
-                        "name": "Partially polyphonic",
+                        "name": "partially polyphonic",
                         "code": "512251",
                         "pre": true
                       },
                       {
-                        "name": "Fully polyphonic",
+                        "name": "fully polyphonic",
                         "code": "512252",
                         "pre": true
                       }
@@ -2898,7 +2898,7 @@
         "code": "52",
         "subclasses": [
           {
-            "name": "Analog",
+            "name": "analog",
             "code": "521",
             "pre": true,
             "subclasses": [
@@ -2907,12 +2907,12 @@
                 "code": "5211",
                 "subclasses": [
                   {
-                    "name": "Manual",
+                    "name": "manual",
                     "code": "52111",
                     "pre": true
                   },
                   {
-                    "name": "Automatic",
+                    "name": "automatic",
                     "code": "52112",
                     "pre": true
                   }
@@ -2921,7 +2921,7 @@
             ]
           },
           {
-            "name": "Digital",
+            "name": "digital",
             "code": "522",
             "pre": true
           }
@@ -2936,12 +2936,12 @@
             "code": "531",
             "subclasses": [
               {
-                "name": "Partially polyphonic",
+                "name": "partially polyphonic",
                 "code": "5311",
                 "pre": true
               },
               {
-                "name": "Fully polyphonic",
+                "name": "fully polyphonic",
                 "code": "5312",
                 "pre": true
               }
@@ -2952,13 +2952,13 @@
             "code": "532",
             "subclasses": [
               {
-                "name": "Partially polyphonic",
-                "code": "5311",
+                "name": "partially polyphonic",
+                "code": "5321",
                 "pre": true
               },
               {
-                "name": "Fully polyphonic",
-                "code": "5312",
+                "name": "fully polyphonic",
+                "code": "5322",
                 "pre": true
               }
             ]
@@ -2968,13 +2968,13 @@
             "code": "533",
             "subclasses": [
               {
-                "name": "Partially polyphonic",
-                "code": "5311",
+                "name": "partially polyphonic",
+                "code": "5331",
                 "pre": true
               },
               {
-                "name": "Fully polyphonic",
-                "code": "5312",
+                "name": "fully polyphonic",
+                "code": "5332",
                 "pre": true
               }
             ]
@@ -2984,13 +2984,13 @@
             "code": "534",
             "subclasses": [
               {
-                "name": "Partially polyphonic",
-                "code": "5311",
+                "name": "partially polyphonic",
+                "code": "5341",
                 "pre": true
               },
               {
-                "name": "Fully polyphonic",
-                "code": "5312",
+                "name": "fully polyphonic",
+                "code": "5342",
                 "pre": true
               }
             ]
@@ -3000,13 +3000,13 @@
             "code": "535",
             "subclasses": [
               {
-                "name": "Partially polyphonic",
-                "code": "5311",
+                "name": "partially polyphonic",
+                "code": "5351",
                 "pre": true
               },
               {
-                "name": "Fully polyphonic",
-                "code": "5312",
+                "name": "fully polyphonic",
+                "code": "5352",
                 "pre": true
               }
             ]

@@ -176,37 +176,34 @@ function treeBoxes(boxes, level) {
 }
 
 function resultInstrument(code, name) {
-  if (code[0] === '-') {
-    document.getElementById('codeSuf').innerHTML += code;
-    document.getElementById('instSuf').innerHTML += name;
-  } else {
-    var lastName;
-    document.getElementById('code').innerHTML = prettyCode(code);
-    if (name[0] === name[0].toLowerCase()) {
-      var tempLevel;
-      for (var i = 0; i < code.length; i++) {
-        if (i === 0) {
-          tempLevel = hs[Number(code[i])-1];
-          lastName = tempLevel.name;
-        } else {
-          tempLevel = tempLevel.subclasses[Number(code[i])-1];
-          var tempName = tempLevel.name;
-          if (tempName[0] === tempName[0].toLowerCase()) {
-            if (Object.keys(tempLevel).includes('replace')) {
-              lastName = lastName.replace(tempLevel.replace, name);
-            } else {
-              lastName += ' ' + tempName;
-            }
+  var lastName;
+  document.getElementById('code').innerHTML = prettyCode(code);
+  if (name[0] === name[0].toLowerCase()) {
+    var tempLevel;
+    for (var i = 0; i < code.length; i++) {
+      if (i === 0) {
+        tempLevel = hs[Number(code[i])-1];
+        lastName = tempLevel.name;
+      } else {
+        tempLevel = tempLevel.subclasses[Number(code[i])-1];
+        var tempName = tempLevel.name;
+        if (tempName[0] === tempName[0].toLowerCase()) {
+          if (Object.keys(tempLevel).includes('replace')) {
+            lastName = lastName.replace(tempLevel.replace, name);
+          } else if (Object.keys(tempLevel).includes('pre')) {
+            lastName = tempName[0].toUpperCase() + tempName.slice(1, name.length) + ' ' + lastName[0].toLowerCase() + lastName.slice(1, lastName.length);
           } else {
-            lastName = tempName;
+            lastName += ' ' + tempName;
           }
+        } else {
+          lastName = tempName;
         }
       }
-    } else {
-      lastName = name;
     }
-    document.getElementById('instrument').innerHTML = " - " + lastName;
+  } else {
+    lastName = name;
   }
+  document.getElementById('instrument').innerHTML = " - " + lastName;
 }
 
 function sufCodeName (code, name, replace) {
