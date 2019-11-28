@@ -193,8 +193,7 @@ function resultInstrument(code, name) {
           var tempName = tempLevel.name;
           if (tempName[0] === tempName[0].toLowerCase()) {
             if (Object.keys(tempLevel).includes('replace')) {
-              var j = lastName.lastIndexOf(tempName.slice(0, 4));
-              lastName = lastName.slice(0, j) + tempName;
+              lastName = lastName.replace(tempLevel.replace, name);
             } else {
               lastName += ' ' + tempName;
             }
