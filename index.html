@@ -16,5 +16,30 @@
       </section>
       <section id="suffixes"></section>
     </main>
+    <footer>
+      <button id="button" onclick="toggleHelpRef()">Show help and references</button>
+      <div id="helpRef" style="display: none;">
+        <p><b>Instructions:</b></p>
+        <p>Click on the box of the class corresponding to the instrument you want to classify. The next classification step, if existing, will appear, otherwise the list of corresponding suffixes will be shown. The Hornbostel-Sachs code, and its corresponding description, will be appearing on the heading, after "Your instrument's code." You can always change your selection by clicking on any of the unselected boxes shown on the screen.</p>
+        <p>The text for the first four classes (boxes in yellow) corresponds to the descriptions by Hornbostel and Sachs, as translated by Bains and Wachsmann ([1914] 1961). The text for the electronophone classes (boxes in blue) corresponds to the proposal by Bakan et al. (1990).</p>
+        <p><b>References:</b></p>
+        <p class="reference">Bakan, Micahel B., Wanda Bryant, Guangming Li, David Martinelli, and Kathryn Vaughn. 1990. “Demystifying and Classifying Electronic Music Instruments.” <i>Selected Reports in Ethnomusicology</i> 8: 37–64.</p>
+        <p class="reference">Hornbostel, Erich M. von, and Curt Sachs. (1914) 1961. "Classification of Musical Instruments: Translated from the Original German by Anthony Baines and Klaus P. Wachsmann." <i>The Galpin Society Journal</i> 14: 3-29. <a href="https://doi.org/10.2307/842168">https://doi.org/10.2307/842168</a></p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleHelpRef() {
+        var helpRef = document.getElementById("helpRef");
+        var button = document.getElementById("button");
+        if (helpRef.style.display == "none") {
+          helpRef.style.display = "block";
+          button.innerHTML = "Hide help and reference";
+        } else {
+          helpRef.style.display = "none";
+          button.innerHTML = "Show help and reference";
+        }
+      }
+    </script>
   </body>
 </html>
